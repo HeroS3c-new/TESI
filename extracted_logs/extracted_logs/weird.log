@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2023-04-24-20-48-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1682369134.913520	CxEyICBx8cYYepBY6	192.168.1.70	1234	192.168.1.40	4242	TCP_christmas	-	F	zeek	TCP
+1682369134.913520	CxEyICBx8cYYepBY6	192.168.1.70	1234	192.168.1.40	4242	baroque_SYN	-	F	zeek	TCP
+1682369134.917715	CxEyICBx8cYYepBY6	192.168.1.70	1234	192.168.1.40	4242	SYN_after_reset	-	F	zeek	TCP
+1682369134.966659	CflM1d2XvhYabbC0ol	192.168.1.70	1234	192.168.1.40	4242	premature_connection_reuse	-	F	zeek	TCP
+#close	2023-04-24-20-48-19

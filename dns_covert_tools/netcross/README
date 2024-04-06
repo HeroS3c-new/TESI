@@ -1,0 +1,183 @@
+********************************************************************************
+*                                                                              *
+*                            Netcross (0.9pre-alpha)                           *
+*                        http://netcross.sourceforge.net                       *
+*                           © 2006 -  Primiano Tucci                           *
+*                                                                              *
+********************************************************************************
+
+The full text of legal notices is contained in the file called COPYING,
+included with this distribution.
+
+[Introduction/FAQs]
+
+ What is netcross?
+		
+	Netcross is a little modular tool that might be useful in restricted 
+        network connections (read firewalled).
+	It's in pre-alpha developing status and it's quite unstable (actually 
+        it's only intended for testing and/or improving).
+	Actually it supports Tun/Tap over DNS, TCP Redirector over DNS and
+	HTTP Proxy over DNS.
+		
+		
+ What do you mean with the words "over DNS"?
+		
+	The NSLink module of netcross is capable to transport data across DNS 
+	queries/replies.
+	Imagine, for instance:
+	    - A public server connected to the internet (we'll call it "S") 
+              with  NO DNS service (e.g Bind) running.
+	    - An unlucky client (we'll call it "C") with restricted acces only 
+              to the local network (no internet)
+	    - A Real DNS Server, e.g. bind (we'll call it "D") in the local 
+              network (the same of A) that is recursive and resolves
+              external address.
+	So what would happend if you'll try to type this on C?:
+		# ping www.google.com
+		PING www.l.google.com (66.249.85.104) 56(84) bytes of data.
+		----------------------------------------------------------
+	Obviously it will solve the A address for www.google.com (becuase of
+        the presence of D) but no traffic is will pass (maybe due to a firewall)
+	
+	Here comes netcross.
+	All you have to do is launch an instance of netcross on S 
+        (configuring it	in "server mode"... se later instructions for the 
+        .conf file) and another instance on the client C (configuring it in 
+        "client mode" and specifying the ip of D in the dns_server parameter).
+	Then all you need is a domain with a DNS configuration like this:
+	network.domain.com.   IN NS magicbox.domain.com.
+	magicbox.domain.com.  IN A  X.X.X.X (the ip address of S)
+	
+	So what's happening?
+	Every time you make a request like foo.bar.network.domain.com from C it
+	will be delivered to the local DNS server (D). It will find that the 
+	authoritative server for *.network.domain.com is magicbox.domain.com 
+	with IP address X.X.X.X	and all queries to *.network.domain.com
+        will be redirected to S.
+	Then S will reply to D who will bounce the reply backward to C.
+	
+	This is the trick that would allow us to transport data from C to S 
+        through the unconscious (D) DNS server.
+	So all netcross does is encoding and decoding data to let it pass 
+        through	DNS servers.
+	The application in "client mode" will act as a DNS client-like who
+        makes a lot of TXT queries.
+	The "Server mode" application will act as a fake DNS server who'll
+        reply to the incoming TXT queries (with 0 TTL to avoid caching)
+	
+ What is the Tun/Tap Endpoint?
+	
+	If you select the Tun/Tap endpoint in the .conf file (with 
+        endpoint=tuntap) a virtual ethernet device will be created on both 
+        client and server tunN or tapN) and data between the client and
+        server's tap will be transported through the DNS Link.
+	So it realizes a virtual network cable between the two interfaces.
+	More documentation about Tun/Tap is available on
+	http://vtun.sourceforge.net/faq.html
+	!!Both client and server must run as root (or you have to chown
+	/dev/net/tun, see faq)
+	
+ What is the TCP Redirector Endpoint?
+	
+	If you choose, instead, the TCP Proxy endpoint (with
+         endpoint=redirector) netcross will act as a tcp port proxy.
+	You have to tell the server-side application what host and port do you 
+        want to connect to (with remote_host=x.x.x.x and remote_port=N params).
+	Then you and have to choose a local port (local_port=N) to listen on.
+	All data arriving on the local port will be sent to the server
+        application and then relayed on the remote host choosen.
+	I.E. C tells S to connect to 1.2.3.4 on port 80 and listens on local 
+        port 100.  All incoming data on C port 100 is sent to S and relayed to 
+        1.2.3.4 : 80 (and backwards)
+	(Please note that this module is actually very unstable. I don't have 
+        tested it so much and sometimes it crashed... will be fixed in next
+         releases)
+	
+ What is the HTTP Proxy Endpoint?
+
+	HTTP Proxy Endpoint (endpoint=httpproxy) acts very similarly to the 
+	TCP Redirector.	The sole difference is that it emulates an http
+        proxy on a local port (choosen with local_port=N). All the incoming 
+        requests are sent to S and processed back.
+	(Please note that this module is actually very unstable (too). I don't 
+        have tested it so much and sometimes it crashed... will be fixed in
+        next releases)	
+
+[Requirements]
+
+	This program has been tested only on Linux-2.4/i386 and Linux-2.6/i386. 
+        If you 	have tested it (hoping successfully :> ) on other systems
+        please let me know.
+
+[Compiling and running]
+	A simple "make" is all i'm asking you!	
+	Then you can run it as ./netcross </path/to/netcross.conf>
+	(if unspecified it looks for /etc/netcross.conf)
+	
+[Configuration file]
+
+	[global]
+	mode=client | server   <- Client mode has to be set on the C client side
+				  Server on the S public server
+	link=ns	               <- Actually the only supported link is DNS 
+				  link... so leave it unchanged
+	endpoint=tuntap     |
+                 redirector |
+                 httpproxty     <- The desidered endpoint (Must be the same on 
+                                   client and server)
+
+	uselosslesslink= true |  
+			 false   <- Use a sliding-window ack/retransmission 
+                                    algorithm to prevent data loss. It's 
+                                    strongly encouraged if you use redirector
+	   			    or httpproxy endpoints. Could be avoided
+                                    if you're using tun/tap and TCP protocol 
+                                    (TCP already got his own,better, algorithm)
+
+	[link]		         <- begin of link-specific configuration
+	dns_server=x.x.x.x	 <- ip address of a reachable DNS server
+	host=foo.bar.com	 <- the hostname with properly configured
+                                    DNS record (must be the same on client and 
+                                    server)
+
+	bind_ip=0.0.0.0	         <- the IP of the interface to bind on (should
+                                    be left on 0.0.0.0 if you don't have 
+                                    specific requirements)
+
+	[endpoint]		 <- begin of endpoint-specific configuration
+	type= tun | tap	         <- Only for the tuntap endpoint
+	remote_host=x.x.x.x	 <- Only for the redirector endpoint
+	remote_port=NN		 <- Only for the redirector endpoint
+	local_port=NN		 <- For both redirector and httpproxy endpoints
+	bind_ip=0.0.0.0		 <- For both both redirector and httpproxy EP
+	ifup_script=/pth/to.sh	 <- Only for the TunTapEndpoint: After 
+                                    connection, a script is invoked with this 
+                                    arguments:
+                                    /path/to.sh <cli|srv> <tapN|tunN> <LinkID>
+
+	ifdown_script=/pth/to.sh <- Same as above
+
+[Greetings]
+	All my "town" friends and university ones
+	All IRCNet friends on #programmazione (expecially my friend
+        recidjvo who had the courage to beta-test this tool).
+	A special greet to my friends giangy (the bughunter) and anaconda 
+	(The changelog-man who will change-log the world :> )
+	My Operating Systems L-A prof P.B. (of course, this project was born
+        as the oral part of the exam)
+	LAB-3 which inspired this tool :-)
+
+[Final notes]			
+	If you have any other questions/comment feel free to write me to 
+        <p.tucci(at)gmail.com>
+	Please note that the actual version is unstable and under testing and 
+        actually has serveral (and more) bugs. It should not be a great idea 
+        running it on a world-reachable production server.
+	
+	Enjoy it
+	 
+	Primiano Tucci
+	<p.tucci(at)gmail.com>
+	
+

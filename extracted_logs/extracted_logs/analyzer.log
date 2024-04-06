@@ -1,0 +1,283 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2023-04-23-17-25-48
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1679101899.603482	violation	protocol	HTTP	Cx5A4O1qiw44RQQb86	-	10.3.18.101	50904	138.197.14.67	8080	not a http request line	-
+1679101899.698520	violation	protocol	HTTP	Cx5A4O1qiw44RQQb86	-	10.3.18.101	50904	138.197.14.67	8080	not a http reply line	-
+1679101906.008566	violation	protocol	HTTP	CnvzCM3aKjRTWDuJgk	-	10.3.18.101	50907	138.197.14.67	8080	not a http request line	-
+1679101906.606390	violation	protocol	HTTP	CnvzCM3aKjRTWDuJgk	-	10.3.18.101	50907	138.197.14.67	8080	not a http reply line	-
+1679101914.519803	violation	protocol	HTTP	CbwkD92D0LpiqZglce	-	10.3.18.101	50908	165.22.246.219	8080	not a http request line	-
+1679101914.827817	violation	protocol	HTTP	CbwkD92D0LpiqZglce	-	10.3.18.101	50908	165.22.246.219	8080	not a http reply line	-
+1679102033.492534	violation	protocol	HTTP	CVwYBb4gaKPPBFNhbb	-	10.3.18.101	50909	138.197.14.67	8080	not a http request line	-
+1679102033.581267	violation	protocol	HTTP	CVwYBb4gaKPPBFNhbb	-	10.3.18.101	50909	138.197.14.67	8080	not a http reply line	-
+1679102082.313919	violation	protocol	HTTP	CGpKxZ3sVpRQ2TS7Mg	-	10.3.18.101	50912	115.178.55.22	80	not a http request line	-
+1679102083.589527	violation	protocol	HTTP	CGpKxZ3sVpRQ2TS7Mg	-	10.3.18.101	50912	115.178.55.22	80	not a http reply line	-
+1679102091.864249	violation	protocol	HTTP	CFy36IKIZqmEYCufh	-	10.3.18.101	50919	165.227.153.100	8080	not a http request line	-
+1679102092.037563	violation	protocol	HTTP	CFy36IKIZqmEYCufh	-	10.3.18.101	50919	165.227.153.100	8080	not a http reply line	-
+1679102100.990658	violation	protocol	HTTP	CtIlPc14MEDBR9jKa1	-	10.3.18.101	50915	115.178.55.22	80	not a http request line	-
+1679102101.297406	violation	protocol	HTTP	CtIlPc14MEDBR9jKa1	-	10.3.18.101	50915	115.178.55.22	80	not a http reply line	-
+1679102210.501263	violation	protocol	GSSAPI	CmwgqC4QZyG8MfTQGl	-	10.3.18.101	50938	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102210.501472	violation	protocol	GSSAPI	CmwgqC4QZyG8MfTQGl	-	10.3.18.101	50938	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102210.501668	violation	protocol	GSSAPI	CmwgqC4QZyG8MfTQGl	-	10.3.18.101	50938	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102210.501987	violation	protocol	GSSAPI	CmwgqC4QZyG8MfTQGl	-	10.3.18.101	50938	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102210.502140	violation	protocol	GSSAPI	CmwgqC4QZyG8MfTQGl	-	10.3.18.101	50938	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102210.502278	violation	protocol	GSSAPI	CmwgqC4QZyG8MfTQGl	-	10.3.18.101	50938	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102235.462259	violation	protocol	HTTP	CRngRCQAkbYc12w69	-	10.3.18.101	50945	103.224.241.74	8080	not a http request line	-
+1679102235.762080	violation	protocol	HTTP	CRngRCQAkbYc12w69	-	10.3.18.101	50945	103.224.241.74	8080	not a http reply line	-
+1679102271.666513	violation	protocol	HTTP	CJnQZTg9wrFf9zhya	-	10.3.18.101	50949	198.199.70.22	8080	not a http request line	-
+1679102271.814348	violation	protocol	HTTP	CJnQZTg9wrFf9zhya	-	10.3.18.101	50949	198.199.70.22	8080	not a http reply line	-
+1679102397.508680	violation	protocol	HTTP	CcKxE91fhfUOM4pO56	-	10.3.18.101	50951	198.199.70.22	8080	not a http request line	-
+1679102397.593696	violation	protocol	HTTP	CcKxE91fhfUOM4pO56	-	10.3.18.101	50951	198.199.70.22	8080	not a http reply line	-
+1679102402.261364	violation	protocol	HTTP	CF6hsm33bcZmYYGLhb	-	10.3.18.101	50952	198.199.70.22	8080	not a http request line	-
+1679102402.347692	violation	protocol	HTTP	CF6hsm33bcZmYYGLhb	-	10.3.18.101	50952	198.199.70.22	8080	not a http reply line	-
+1679102461.235889	violation	protocol	HTTP	Cwcwxs3TjW6jqa9oAh	-	10.3.18.101	50961	139.196.72.155	8080	not a http request line	-
+1679102461.542373	violation	protocol	HTTP	Cwcwxs3TjW6jqa9oAh	-	10.3.18.101	50961	139.196.72.155	8080	not a http reply line	-
+1679102520.328979	violation	protocol	HTTP	CtzDbDPQWljY41Orl	-	10.3.18.101	50966	178.62.112.199	8080	not a http request line	-
+1679102520.486634	violation	protocol	HTTP	CtzDbDPQWljY41Orl	-	10.3.18.101	50966	178.62.112.199	8080	not a http reply line	-
+1679102622.815266	violation	protocol	GSSAPI	CovyuD19VcF7V3mWT2	-	10.3.18.101	50976	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102622.815498	violation	protocol	GSSAPI	CovyuD19VcF7V3mWT2	-	10.3.18.101	50976	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102622.815706	violation	protocol	GSSAPI	CovyuD19VcF7V3mWT2	-	10.3.18.101	50976	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102622.816013	violation	protocol	GSSAPI	CovyuD19VcF7V3mWT2	-	10.3.18.101	50976	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102622.816187	violation	protocol	GSSAPI	CovyuD19VcF7V3mWT2	-	10.3.18.101	50976	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102622.816334	violation	protocol	GSSAPI	CovyuD19VcF7V3mWT2	-	10.3.18.101	50976	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102622.817783	violation	protocol	GSSAPI	CovyuD19VcF7V3mWT2	-	10.3.18.101	50976	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102622.817956	violation	protocol	GSSAPI	CovyuD19VcF7V3mWT2	-	10.3.18.101	50976	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102622.818136	violation	protocol	GSSAPI	CovyuD19VcF7V3mWT2	-	10.3.18.101	50976	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102622.818426	violation	protocol	GSSAPI	CovyuD19VcF7V3mWT2	-	10.3.18.101	50976	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102622.818597	violation	protocol	GSSAPI	CovyuD19VcF7V3mWT2	-	10.3.18.101	50976	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102622.818740	violation	protocol	GSSAPI	CovyuD19VcF7V3mWT2	-	10.3.18.101	50976	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679102681.296982	violation	protocol	HTTP	ClzbKjK5qgBrTTnL7	-	10.3.18.101	50986	138.197.14.67	8080	not a http request line	-
+1679102681.402563	violation	protocol	HTTP	ClzbKjK5qgBrTTnL7	-	10.3.18.101	50986	138.197.14.67	8080	not a http reply line	-
+1679102713.938406	violation	protocol	HTTP	CPSXeF3gnpZZii7LUf	-	10.3.18.101	50989	115.178.55.22	80	not a http request line	-
+1679102714.224144	violation	protocol	HTTP	CPSXeF3gnpZZii7LUf	-	10.3.18.101	50989	115.178.55.22	80	not a http reply line	-
+1679102815.760720	violation	protocol	HTTP	CZQLrh174X5FeRzP31	-	10.3.18.101	51000	103.224.241.74	8080	not a http request line	-
+1679102816.122087	violation	protocol	HTTP	CZQLrh174X5FeRzP31	-	10.3.18.101	51000	103.224.241.74	8080	not a http reply line	-
+1679102883.704526	violation	protocol	HTTP	Cq8ucZ2EnkbZAtr9H4	-	10.3.18.101	51004	198.199.70.22	8080	not a http request line	-
+1679102883.851371	violation	protocol	HTTP	Cq8ucZ2EnkbZAtr9H4	-	10.3.18.101	51004	198.199.70.22	8080	not a http reply line	-
+1679102919.354499	violation	protocol	HTTP	Curh7m2TcFGbMYmf0e	-	10.3.18.101	51005	198.199.70.22	8080	not a http request line	-
+1679102919.508006	violation	protocol	HTTP	Curh7m2TcFGbMYmf0e	-	10.3.18.101	51005	198.199.70.22	8080	not a http reply line	-
+1679102924.590836	violation	protocol	HTTP	C9mTFC1aZ7UYnqiIwb	-	10.3.18.101	51006	198.199.70.22	8080	not a http request line	-
+1679102924.774050	violation	protocol	HTTP	C9mTFC1aZ7UYnqiIwb	-	10.3.18.101	51006	198.199.70.22	8080	not a http reply line	-
+1679102959.998968	violation	protocol	HTTP	CpxaenqVgOLzD65c8	-	10.3.18.101	51007	198.199.70.22	8080	not a http request line	-
+1679102960.090608	violation	protocol	HTTP	CpxaenqVgOLzD65c8	-	10.3.18.101	51007	198.199.70.22	8080	not a http reply line	-
+1679103011.712176	violation	protocol	HTTP	Cp3w1i1yM1MlkdZCje	-	10.3.18.101	51012	139.196.72.155	8080	not a http request line	-
+1679103012.837792	violation	protocol	HTTP	Cp3w1i1yM1MlkdZCje	-	10.3.18.101	51012	139.196.72.155	8080	not a http reply line	-
+1679103021.747393	violation	protocol	HTTP	CsHfYulD4Y0385lE4	-	10.3.18.101	51013	139.196.72.155	8080	not a http request line	-
+1679103022.053548	violation	protocol	HTTP	CsHfYulD4Y0385lE4	-	10.3.18.101	51013	139.196.72.155	8080	not a http reply line	-
+1679103078.308860	violation	protocol	HTTP	CdRizW3vjwpeYcT5og	-	10.3.18.101	51018	178.62.112.199	8080	not a http request line	-
+1679103078.477448	violation	protocol	HTTP	CdRizW3vjwpeYcT5og	-	10.3.18.101	51018	178.62.112.199	8080	not a http reply line	-
+1679103113.834508	violation	protocol	HTTP	CNBpf2ywfzlflwwIb	-	10.3.18.101	51019	178.62.112.199	8080	not a http request line	-
+1679103114.009489	violation	protocol	HTTP	CNBpf2ywfzlflwwIb	-	10.3.18.101	51019	178.62.112.199	8080	not a http reply line	-
+1679103119.027550	violation	protocol	HTTP	CrkF8f2jvqntCsZKhi	-	10.3.18.101	51020	165.22.246.219	8080	not a http request line	-
+1679103119.289764	violation	protocol	HTTP	CrkF8f2jvqntCsZKhi	-	10.3.18.101	51020	165.22.246.219	8080	not a http reply line	-
+1679103119.821426	violation	protocol	HTTP	CTlyYF4IPBpwyNzw46	-	10.3.18.101	51021	178.62.112.199	8080	not a http request line	-
+1679103119.989682	violation	protocol	HTTP	CTlyYF4IPBpwyNzw46	-	10.3.18.101	51021	178.62.112.199	8080	not a http reply line	-
+1679103154.196465	violation	protocol	HTTP	CWIYdX3FKOSTlr8rzf	-	10.3.18.101	51022	178.62.112.199	8080	not a http request line	-
+1679103154.375453	violation	protocol	HTTP	CWIYdX3FKOSTlr8rzf	-	10.3.18.101	51022	178.62.112.199	8080	not a http reply line	-
+1679103159.821252	violation	protocol	HTTP	C15ooF4TM6H9kqmdJ3	-	10.3.18.101	51023	178.62.112.199	8080	not a http request line	-
+1679103159.984617	violation	protocol	HTTP	C15ooF4TM6H9kqmdJ3	-	10.3.18.101	51023	178.62.112.199	8080	not a http reply line	-
+1679103302.368768	violation	protocol	HTTP	CqKmoZC6VC6m1BmJ2	-	10.3.18.101	51037	138.197.14.67	8080	not a http request line	-
+1679103302.548883	violation	protocol	HTTP	CqKmoZC6VC6m1BmJ2	-	10.3.18.101	51037	138.197.14.67	8080	not a http reply line	-
+1679103332.531699	violation	protocol	HTTP	CN12d24f2roPlSXDj7	-	10.3.18.101	51040	115.178.55.22	80	not a http request line	-
+1679103332.838214	violation	protocol	HTTP	CN12d24f2roPlSXDj7	-	10.3.18.101	51040	115.178.55.22	80	not a http reply line	-
+1679103415.271328	violation	protocol	HTTP	COJY1ZFXPbAEfDjWd	-	10.3.18.101	51051	103.224.241.74	8080	not a http request line	-
+1679103415.590351	violation	protocol	HTTP	COJY1ZFXPbAEfDjWd	-	10.3.18.101	51051	103.224.241.74	8080	not a http reply line	-
+1679103453.507539	violation	protocol	HTTP	CYsM1m3b2XcWkt7Wva	-	10.3.18.101	51054	198.199.70.22	8080	not a http request line	-
+1679103453.598252	violation	protocol	HTTP	CYsM1m3b2XcWkt7Wva	-	10.3.18.101	51054	198.199.70.22	8080	not a http reply line	-
+1679103514.088706	violation	protocol	HTTP	ClGQhk2Fmtjj3wFUwa	-	10.3.18.101	51059	139.196.72.155	8080	not a http request line	-
+1679103522.585447	violation	protocol	HTTP	ClGQhk2Fmtjj3wFUwa	-	10.3.18.101	51059	139.196.72.155	8080	not a http reply line	-
+1679103530.695553	violation	protocol	GSSAPI	C0RPIivQmse8qAd1c	-	10.3.18.101	51061	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679103530.695766	violation	protocol	GSSAPI	C0RPIivQmse8qAd1c	-	10.3.18.101	51061	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679103530.695984	violation	protocol	GSSAPI	C0RPIivQmse8qAd1c	-	10.3.18.101	51061	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679103530.696297	violation	protocol	GSSAPI	C0RPIivQmse8qAd1c	-	10.3.18.101	51061	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679103530.696489	violation	protocol	GSSAPI	C0RPIivQmse8qAd1c	-	10.3.18.101	51061	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679103530.696753	violation	protocol	GSSAPI	C0RPIivQmse8qAd1c	-	10.3.18.101	51061	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679103530.696915	violation	protocol	GSSAPI	C0RPIivQmse8qAd1c	-	10.3.18.101	51061	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679103530.697078	violation	protocol	GSSAPI	C0RPIivQmse8qAd1c	-	10.3.18.101	51061	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679103617.058730	violation	protocol	HTTP	C1wJIF2KneH46VFRUf	-	10.3.18.101	51070	178.62.112.199	8080	not a http request line	-
+1679103617.218247	violation	protocol	HTTP	C1wJIF2KneH46VFRUf	-	10.3.18.101	51070	178.62.112.199	8080	not a http reply line	-
+1679103773.870908	violation	protocol	HTTP	CWW7n11cVgE1p736Da	-	10.3.18.101	51084	138.197.14.67	8080	not a http request line	-
+1679103774.023618	violation	protocol	HTTP	CWW7n11cVgE1p736Da	-	10.3.18.101	51084	138.197.14.67	8080	not a http reply line	-
+1679103805.015126	violation	protocol	HTTP	CFEBPs2FJC3CULB3Jb	-	10.3.18.101	51087	115.178.55.22	80	not a http request line	-
+1679103805.391312	violation	protocol	HTTP	CFEBPs2FJC3CULB3Jb	-	10.3.18.101	51087	115.178.55.22	80	not a http reply line	-
+1679103902.298744	violation	protocol	HTTP	CSdHk4wRjePoZ3nj1	-	10.3.18.101	51097	103.224.241.74	8080	not a http request line	-
+1679103902.605763	violation	protocol	HTTP	CSdHk4wRjePoZ3nj1	-	10.3.18.101	51097	103.224.241.74	8080	not a http reply line	-
+1679103926.556845	violation	protocol	HTTP	CKEUVF1BfzAqIObnA2	-	10.3.18.101	51100	198.199.70.22	8080	not a http request line	-
+1679103926.645345	violation	protocol	HTTP	CKEUVF1BfzAqIObnA2	-	10.3.18.101	51100	198.199.70.22	8080	not a http reply line	-
+1679103966.299176	violation	protocol	HTTP	CkBglk3iJBDWDJUBu2	-	10.3.18.101	51105	139.196.72.155	8080	not a http request line	-
+1679103966.605623	violation	protocol	HTTP	CkBglk3iJBDWDJUBu2	-	10.3.18.101	51105	139.196.72.155	8080	not a http reply line	-
+1679104044.554690	violation	protocol	HTTP	Ci7Tbs1Vk6MtpN575k	-	10.3.18.101	51111	178.62.112.199	8080	not a http request line	-
+1679104044.721227	violation	protocol	HTTP	Ci7Tbs1Vk6MtpN575k	-	10.3.18.101	51111	178.62.112.199	8080	not a http reply line	-
+1679104187.546390	violation	protocol	HTTP	CEvulb4ZHPUHYCWUW1	-	10.3.18.101	51125	138.197.14.67	8080	not a http request line	-
+1679104187.648318	violation	protocol	HTTP	CEvulb4ZHPUHYCWUW1	-	10.3.18.101	51125	138.197.14.67	8080	not a http reply line	-
+1679104224.494108	violation	protocol	HTTP	C46Ffx1WmadExforLj	-	10.3.18.101	51128	115.178.55.22	80	not a http request line	-
+1679104224.859580	violation	protocol	HTTP	C46Ffx1WmadExforLj	-	10.3.18.101	51128	115.178.55.22	80	not a http reply line	-
+1679104320.092724	violation	protocol	HTTP	CniOOnIHTXxXnyE2e	-	10.3.18.101	51138	103.224.241.74	8080	not a http request line	-
+1679104320.403696	violation	protocol	HTTP	CniOOnIHTXxXnyE2e	-	10.3.18.101	51138	103.224.241.74	8080	not a http reply line	-
+1679104360.298099	violation	protocol	HTTP	CrFO7c4OpWR6A78of2	-	10.3.18.101	51141	198.199.70.22	8080	not a http request line	-
+1679104360.384593	violation	protocol	HTTP	CrFO7c4OpWR6A78of2	-	10.3.18.101	51141	198.199.70.22	8080	not a http reply line	-
+1679104422.521346	violation	protocol	HTTP	C9W9sx3hKXFNVIwMFa	-	10.3.18.101	51146	139.196.72.155	8080	not a http request line	-
+1679104423.837372	violation	protocol	HTTP	C9W9sx3hKXFNVIwMFa	-	10.3.18.101	51146	139.196.72.155	8080	not a http reply line	-
+1679104509.021631	violation	protocol	HTTP	C8PiA1BhvpYZxWdw3	-	10.3.18.101	51152	178.62.112.199	8080	not a http request line	-
+1679104509.196905	violation	protocol	HTTP	C8PiA1BhvpYZxWdw3	-	10.3.18.101	51152	178.62.112.199	8080	not a http reply line	-
+1679104543.364240	violation	protocol	HTTP	CEtMOj3mBZelA1A7yi	-	10.3.18.101	51153	178.62.112.199	8080	not a http request line	-
+1679104543.527388	violation	protocol	HTTP	CEtMOj3mBZelA1A7yi	-	10.3.18.101	51153	178.62.112.199	8080	not a http reply line	-
+1679104548.729377	violation	protocol	HTTP	CYXDNTXX5nUJfDDc8	-	10.3.18.101	51154	165.227.211.222	8080	not a http request line	-
+1679104548.957537	violation	protocol	HTTP	CYXDNTXX5nUJfDDc8	-	10.3.18.101	51154	165.227.211.222	8080	not a http reply line	-
+1679104549.615731	violation	protocol	HTTP	CFRw2w2MUtmwk6eHEl	-	10.3.18.101	51155	178.62.112.199	8080	not a http request line	-
+1679104549.772161	violation	protocol	HTTP	CFRw2w2MUtmwk6eHEl	-	10.3.18.101	51155	178.62.112.199	8080	not a http reply line	-
+1679104690.537825	violation	protocol	HTTP	CNsvSn1Wky1mrwDUkb	-	10.3.18.101	51170	138.197.14.67	8080	not a http request line	-
+1679104690.641707	violation	protocol	HTTP	CNsvSn1Wky1mrwDUkb	-	10.3.18.101	51170	138.197.14.67	8080	not a http reply line	-
+1679104723.755008	violation	protocol	HTTP	CcV9rL2aVwmZA9Avyl	-	10.3.18.101	51173	115.178.55.22	80	not a http request line	-
+1679104724.063682	violation	protocol	HTTP	CcV9rL2aVwmZA9Avyl	-	10.3.18.101	51173	115.178.55.22	80	not a http reply line	-
+1679104841.106109	violation	protocol	HTTP	CvXGt619dg0Ly3a7y6	-	10.3.18.101	51183	103.224.241.74	8080	not a http request line	-
+1679104841.404801	violation	protocol	HTTP	CvXGt619dg0Ly3a7y6	-	10.3.18.101	51183	103.224.241.74	8080	not a http reply line	-
+1679104877.305604	violation	protocol	HTTP	C4orCH26G0vrr805wk	-	10.3.18.101	51186	198.199.70.22	8080	not a http request line	-
+1679104877.393947	violation	protocol	HTTP	C4orCH26G0vrr805wk	-	10.3.18.101	51186	198.199.70.22	8080	not a http reply line	-
+1679104917.087898	violation	protocol	HTTP	CspqSs3N8io0OJdag	-	10.3.18.101	51191	139.196.72.155	8080	not a http request line	-
+1679104917.393819	violation	protocol	HTTP	CspqSs3N8io0OJdag	-	10.3.18.101	51191	139.196.72.155	8080	not a http reply line	-
+1679105006.590935	violation	protocol	HTTP	CxhmHu1bisfmF1UgK7	-	10.3.18.101	51197	178.62.112.199	8080	not a http request line	-
+1679105006.753246	violation	protocol	HTTP	CxhmHu1bisfmF1UgK7	-	10.3.18.101	51197	178.62.112.199	8080	not a http reply line	-
+1679105041.874592	violation	protocol	HTTP	CpofP53BQ3COpndNb4	-	10.3.18.101	51198	178.62.112.199	8080	not a http request line	-
+1679105042.052667	violation	protocol	HTTP	CpofP53BQ3COpndNb4	-	10.3.18.101	51198	178.62.112.199	8080	not a http reply line	-
+1679105047.842849	violation	protocol	HTTP	CS0J7c3k2iGx2eFhI8	-	10.3.18.101	51200	178.62.112.199	8080	not a http request line	-
+1679105047.986373	violation	protocol	HTTP	CS0J7c3k2iGx2eFhI8	-	10.3.18.101	51200	178.62.112.199	8080	not a http reply line	-
+1679105084.160384	violation	protocol	HTTP	C1Aarw2HidCbt5ogvd	-	10.3.18.101	51201	178.62.112.199	8080	not a http request line	-
+1679105084.319071	violation	protocol	HTTP	C1Aarw2HidCbt5ogvd	-	10.3.18.101	51201	178.62.112.199	8080	not a http reply line	-
+1679105231.078203	violation	protocol	HTTP	ClXgvM25u5nXkkOOV2	-	10.3.18.101	51216	138.197.14.67	8080	not a http request line	-
+1679105231.170423	violation	protocol	HTTP	ClXgvM25u5nXkkOOV2	-	10.3.18.101	51216	138.197.14.67	8080	not a http reply line	-
+1679105271.603138	violation	protocol	HTTP	CtqeS74M5HmW4wBaSd	-	10.3.18.101	51219	115.178.55.22	80	not a http request line	-
+1679105271.909935	violation	protocol	HTTP	CtqeS74M5HmW4wBaSd	-	10.3.18.101	51219	115.178.55.22	80	not a http reply line	-
+1679105332.140011	violation	protocol	GSSAPI	CHJsB44TX19na6SSpl	-	10.3.18.101	51227	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105332.140254	violation	protocol	GSSAPI	CHJsB44TX19na6SSpl	-	10.3.18.101	51227	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105332.140616	violation	protocol	GSSAPI	CHJsB44TX19na6SSpl	-	10.3.18.101	51227	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105332.140942	violation	protocol	GSSAPI	CHJsB44TX19na6SSpl	-	10.3.18.101	51227	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105332.141141	violation	protocol	GSSAPI	CHJsB44TX19na6SSpl	-	10.3.18.101	51227	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105332.141304	violation	protocol	GSSAPI	CHJsB44TX19na6SSpl	-	10.3.18.101	51227	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105332.142474	violation	protocol	GSSAPI	CHJsB44TX19na6SSpl	-	10.3.18.101	51227	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105332.142645	violation	protocol	GSSAPI	CHJsB44TX19na6SSpl	-	10.3.18.101	51227	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105332.142822	violation	protocol	GSSAPI	CHJsB44TX19na6SSpl	-	10.3.18.101	51227	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105332.143098	violation	protocol	GSSAPI	CHJsB44TX19na6SSpl	-	10.3.18.101	51227	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105332.143265	violation	protocol	GSSAPI	CHJsB44TX19na6SSpl	-	10.3.18.101	51227	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105332.143413	violation	protocol	GSSAPI	CHJsB44TX19na6SSpl	-	10.3.18.101	51227	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105339.530518	violation	protocol	NTP	CFDQ1m2cOc5RGBT5Lf	-	10.3.18.101	123	10.3.18.18	123	Binpac exception: binpac exception: out_of_bound: Extension_Field:value_len: 18 > 6	-
+1679105339.532803	violation	protocol	NTP	CFDQ1m2cOc5RGBT5Lf	-	10.3.18.101	123	10.3.18.18	123	Binpac exception: binpac exception: out_of_bound: Extension_Field:value: 819787323 > 72	-
+1679105344.083951	violation	protocol	GSSAPI	CwAVuP1yw5jwZc2Fn1	-	10.3.18.101	51232	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105344.084247	violation	protocol	GSSAPI	CwAVuP1yw5jwZc2Fn1	-	10.3.18.101	51232	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105344.084524	violation	protocol	GSSAPI	CwAVuP1yw5jwZc2Fn1	-	10.3.18.101	51232	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105344.084935	violation	protocol	GSSAPI	CwAVuP1yw5jwZc2Fn1	-	10.3.18.101	51232	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105344.085160	violation	protocol	GSSAPI	CwAVuP1yw5jwZc2Fn1	-	10.3.18.101	51232	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105344.085331	violation	protocol	GSSAPI	CwAVuP1yw5jwZc2Fn1	-	10.3.18.101	51232	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679105362.535315	violation	protocol	HTTP	Ce48Yw3t4MTZTxdzni	-	10.3.18.101	51237	103.224.241.74	8080	not a http request line	-
+1679105362.847572	violation	protocol	HTTP	Ce48Yw3t4MTZTxdzni	-	10.3.18.101	51237	103.224.241.74	8080	not a http reply line	-
+1679105386.827350	violation	protocol	HTTP	CHgRP6lebIWpCz4S2	-	10.3.18.101	51240	198.199.70.22	8080	not a http request line	-
+1679105386.918494	violation	protocol	HTTP	CHgRP6lebIWpCz4S2	-	10.3.18.101	51240	198.199.70.22	8080	not a http reply line	-
+1679105427.048466	violation	protocol	HTTP	CMhMOZ3mWBjmQB2Nuf	-	10.3.18.101	51245	139.196.72.155	8080	not a http request line	-
+1679105427.353638	violation	protocol	HTTP	CMhMOZ3mWBjmQB2Nuf	-	10.3.18.101	51245	139.196.72.155	8080	not a http reply line	-
+1679105517.167790	violation	protocol	HTTP	CbsGdN3aWB0CsOkuNf	-	10.3.18.101	51251	178.62.112.199	8080	not a http request line	-
+1679105517.451949	violation	protocol	HTTP	CbsGdN3aWB0CsOkuNf	-	10.3.18.101	51251	178.62.112.199	8080	not a http reply line	-
+1679105662.509162	violation	protocol	HTTP	CFc8ie12bwhVVs1VWh	-	10.3.18.101	51265	138.197.14.67	8080	not a http request line	-
+1679105662.689827	violation	protocol	HTTP	CFc8ie12bwhVVs1VWh	-	10.3.18.101	51265	138.197.14.67	8080	not a http reply line	-
+1679105693.839938	violation	protocol	HTTP	Civ9GInMly1P6FFGk	-	10.3.18.101	51268	115.178.55.22	80	not a http request line	-
+1679105694.118624	violation	protocol	HTTP	Civ9GInMly1P6FFGk	-	10.3.18.101	51268	115.178.55.22	80	not a http reply line	-
+1679105796.304146	violation	protocol	HTTP	Cipf6b2q0XKHVnmQW5	-	10.3.18.101	51278	103.224.241.74	8080	not a http request line	-
+1679105796.614511	violation	protocol	HTTP	Cipf6b2q0XKHVnmQW5	-	10.3.18.101	51278	103.224.241.74	8080	not a http reply line	-
+1679105820.803527	violation	protocol	HTTP	Cx5xAl4ZXPWNMhTfvc	-	10.3.18.101	51281	198.199.70.22	8080	not a http request line	-
+1679105821.141804	violation	protocol	HTTP	Cx5xAl4ZXPWNMhTfvc	-	10.3.18.101	51281	198.199.70.22	8080	not a http reply line	-
+1679105862.786593	violation	protocol	HTTP	C9QQip10VFvNXKKSX5	-	10.3.18.101	51286	139.196.72.155	8080	not a http request line	-
+1679105863.090404	violation	protocol	HTTP	C9QQip10VFvNXKKSX5	-	10.3.18.101	51286	139.196.72.155	8080	not a http reply line	-
+1679105950.968211	violation	protocol	HTTP	CNwuOT1hoSO5RVkEc	-	10.3.18.101	51292	178.62.112.199	8080	not a http request line	-
+1679105951.147415	violation	protocol	HTTP	CNwuOT1hoSO5RVkEc	-	10.3.18.101	51292	178.62.112.199	8080	not a http reply line	-
+1679105957.404234	violation	protocol	HTTP	CBHwDPDziohmIDAad	-	10.3.18.101	51293	178.62.112.199	8080	not a http request line	-
+1679105957.577296	violation	protocol	HTTP	CBHwDPDziohmIDAad	-	10.3.18.101	51293	178.62.112.199	8080	not a http reply line	-
+1679105992.038770	violation	protocol	HTTP	C9O32E2bd4NC07yVs4	-	10.3.18.101	51294	178.62.112.199	8080	not a http request line	-
+1679105992.217562	violation	protocol	HTTP	C9O32E2bd4NC07yVs4	-	10.3.18.101	51294	178.62.112.199	8080	not a http reply line	-
+1679106140.722238	violation	protocol	HTTP	CS6Isf2hkRyvDbfq44	-	10.3.18.101	51308	138.197.14.67	8080	not a http request line	-
+1679106140.906727	violation	protocol	HTTP	CS6Isf2hkRyvDbfq44	-	10.3.18.101	51308	138.197.14.67	8080	not a http reply line	-
+1679106173.052624	violation	protocol	HTTP	Cv0br91FAXvVJZuyF6	-	10.3.18.101	51311	115.178.55.22	80	not a http request line	-
+1679106173.333057	violation	protocol	HTTP	Cv0br91FAXvVJZuyF6	-	10.3.18.101	51311	115.178.55.22	80	not a http reply line	-
+1679106259.081207	violation	protocol	HTTP	CQGsoS3kbEWQJzThyj	-	10.3.18.101	51321	103.224.241.74	8080	not a http request line	-
+1679106259.394262	violation	protocol	HTTP	CQGsoS3kbEWQJzThyj	-	10.3.18.101	51321	103.224.241.74	8080	not a http reply line	-
+1679106282.906573	violation	protocol	HTTP	CMz1iA4gAPiIlA7bQ6	-	10.3.18.101	51324	198.199.70.22	8080	not a http request line	-
+1679106283.035052	violation	protocol	HTTP	CMz1iA4gAPiIlA7bQ6	-	10.3.18.101	51324	198.199.70.22	8080	not a http reply line	-
+1679106326.563232	violation	protocol	HTTP	CGHI8W1Oz4wyDUswH2	-	10.3.18.101	51329	139.196.72.155	8080	not a http request line	-
+1679106326.869963	violation	protocol	HTTP	CGHI8W1Oz4wyDUswH2	-	10.3.18.101	51329	139.196.72.155	8080	not a http reply line	-
+1679106416.927602	violation	protocol	HTTP	CTNaW54S3mGROV4hHb	-	10.3.18.101	51335	178.62.112.199	8080	not a http request line	-
+1679106417.088625	violation	protocol	HTTP	CTNaW54S3mGROV4hHb	-	10.3.18.101	51335	178.62.112.199	8080	not a http reply line	-
+1679107322.409029	violation	protocol	HTTP	CVLkql2NXeXzrHxpa8	-	10.3.18.101	51339	178.62.112.199	8080	not a http request line	-
+1679107322.572223	violation	protocol	HTTP	CVLkql2NXeXzrHxpa8	-	10.3.18.101	51339	178.62.112.199	8080	not a http reply line	-
+1679108228.547692	violation	protocol	HTTP	C4RzQF4ms1ZVtq1AR4	-	10.3.18.101	51340	178.62.112.199	8080	not a http request line	-
+1679108228.721193	violation	protocol	HTTP	C4RzQF4ms1ZVtq1AR4	-	10.3.18.101	51340	178.62.112.199	8080	not a http reply line	-
+1679108234.714267	violation	protocol	HTTP	CbmOyG241Wc3so9TGb	-	10.3.18.101	51342	178.62.112.199	8080	not a http request line	-
+1679108234.875571	violation	protocol	HTTP	CbmOyG241Wc3so9TGb	-	10.3.18.101	51342	178.62.112.199	8080	not a http reply line	-
+1679108383.349983	violation	protocol	HTTP	CWuzNk8o1uMMG2ebi	-	10.3.18.101	51357	138.197.14.67	8080	not a http request line	-
+1679108383.535039	violation	protocol	HTTP	CWuzNk8o1uMMG2ebi	-	10.3.18.101	51357	138.197.14.67	8080	not a http reply line	-
+1679108426.797664	violation	protocol	HTTP	CmnQwx1Csx4JHxATs5	-	10.3.18.101	51360	115.178.55.22	80	not a http request line	-
+1679108427.081849	violation	protocol	HTTP	CmnQwx1Csx4JHxATs5	-	10.3.18.101	51360	115.178.55.22	80	not a http reply line	-
+1679108532.029883	violation	protocol	HTTP	CNWyXB4RucLs2p5xXl	-	10.3.18.101	51370	103.224.241.74	8080	not a http request line	-
+1679108532.329144	violation	protocol	HTTP	CNWyXB4RucLs2p5xXl	-	10.3.18.101	51370	103.224.241.74	8080	not a http reply line	-
+1679108568.966375	violation	protocol	HTTP	CcjOE94TpTYK1Qhod8	-	10.3.18.101	51373	198.199.70.22	8080	not a http request line	-
+1679108569.052090	violation	protocol	HTTP	CcjOE94TpTYK1Qhod8	-	10.3.18.101	51373	198.199.70.22	8080	not a http reply line	-
+1679108619.880022	violation	protocol	HTTP	CT6gES1mV5KxADM6we	-	10.3.18.101	51378	139.196.72.155	8080	not a http request line	-
+1679108620.163681	violation	protocol	HTTP	CT6gES1mV5KxADM6we	-	10.3.18.101	51378	139.196.72.155	8080	not a http reply line	-
+1679108708.761611	violation	protocol	HTTP	CA34lO1su7eX3TdZb7	-	10.3.18.101	51384	178.62.112.199	8080	not a http request line	-
+1679108709.066614	violation	protocol	HTTP	CA34lO1su7eX3TdZb7	-	10.3.18.101	51384	178.62.112.199	8080	not a http reply line	-
+1679108744.278523	violation	protocol	HTTP	CWJc6b4aW9qkYEGtd8	-	10.3.18.101	51385	178.62.112.199	8080	not a http request line	-
+1679108744.442414	violation	protocol	HTTP	CWJc6b4aW9qkYEGtd8	-	10.3.18.101	51385	178.62.112.199	8080	not a http reply line	-
+1679108749.101644	violation	protocol	HTTP	CLedbQ3NRxkTfmBRl	-	10.3.18.101	51386	178.62.112.199	8080	not a http request line	-
+1679108749.283289	violation	protocol	HTTP	CLedbQ3NRxkTfmBRl	-	10.3.18.101	51386	178.62.112.199	8080	not a http reply line	-
+1679108784.547805	violation	protocol	HTTP	Chc4td2Lv8mhJ8RFD3	-	10.3.18.101	51390	178.62.112.199	8080	not a http request line	-
+1679108784.723453	violation	protocol	HTTP	Chc4td2Lv8mhJ8RFD3	-	10.3.18.101	51390	178.62.112.199	8080	not a http reply line	-
+1679108789.353709	violation	protocol	HTTP	C0jqpZqQ3nXOSsBTd	-	10.3.18.101	51391	178.62.112.199	8080	not a http request line	-
+1679108789.517741	violation	protocol	HTTP	C0jqpZqQ3nXOSsBTd	-	10.3.18.101	51391	178.62.112.199	8080	not a http reply line	-
+1679108824.272751	violation	protocol	HTTP	C6cLHI3479SU38pNkc	-	10.3.18.101	51392	178.62.112.199	8080	not a http request line	-
+1679108824.433879	violation	protocol	HTTP	C6cLHI3479SU38pNkc	-	10.3.18.101	51392	178.62.112.199	8080	not a http reply line	-
+1679108932.033644	violation	protocol	GSSAPI	Cth7mjPK1ShrUbmDj	-	10.3.18.101	51405	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679108932.033921	violation	protocol	GSSAPI	Cth7mjPK1ShrUbmDj	-	10.3.18.101	51405	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679108932.034268	violation	protocol	GSSAPI	Cth7mjPK1ShrUbmDj	-	10.3.18.101	51405	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679108932.034645	violation	protocol	GSSAPI	Cth7mjPK1ShrUbmDj	-	10.3.18.101	51405	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679108932.034853	violation	protocol	GSSAPI	Cth7mjPK1ShrUbmDj	-	10.3.18.101	51405	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679108932.035034	violation	protocol	GSSAPI	Cth7mjPK1ShrUbmDj	-	10.3.18.101	51405	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679108932.036441	violation	protocol	GSSAPI	Cth7mjPK1ShrUbmDj	-	10.3.18.101	51405	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679108932.036654	violation	protocol	GSSAPI	Cth7mjPK1ShrUbmDj	-	10.3.18.101	51405	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679108932.036854	violation	protocol	GSSAPI	Cth7mjPK1ShrUbmDj	-	10.3.18.101	51405	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679108932.037170	violation	protocol	GSSAPI	Cth7mjPK1ShrUbmDj	-	10.3.18.101	51405	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679108932.037357	violation	protocol	GSSAPI	Cth7mjPK1ShrUbmDj	-	10.3.18.101	51405	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679108932.037529	violation	protocol	GSSAPI	Cth7mjPK1ShrUbmDj	-	10.3.18.101	51405	10.3.18.18	49669	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74	-
+1679108960.798003	violation	protocol	HTTP	CPD5BK8c4r4H6tEG	-	10.3.18.101	51411	138.197.14.67	8080	not a http request line	-
+1679108960.884532	violation	protocol	HTTP	CPD5BK8c4r4H6tEG	-	10.3.18.101	51411	138.197.14.67	8080	not a http reply line	-
+1679108989.829379	violation	protocol	HTTP	CKV7yl3e4T9Cnr0qs4	-	10.3.18.101	51414	115.178.55.22	80	not a http request line	-
+1679108990.135812	violation	protocol	HTTP	CKV7yl3e4T9Cnr0qs4	-	10.3.18.101	51414	115.178.55.22	80	not a http reply line	-
+1679109084.552529	violation	protocol	HTTP	CnAIw12X0fGhUGyNFg	-	10.3.18.101	51424	103.224.241.74	8080	not a http request line	-
+1679109084.859659	violation	protocol	HTTP	CnAIw12X0fGhUGyNFg	-	10.3.18.101	51424	103.224.241.74	8080	not a http reply line	-
+1679109108.799458	violation	protocol	HTTP	CT07Mj1CUVXdul0qId	-	10.3.18.101	51427	198.199.70.22	8080	not a http request line	-
+1679109109.534384	violation	protocol	HTTP	CT07Mj1CUVXdul0qId	-	10.3.18.101	51427	198.199.70.22	8080	not a http reply line	-
+1679109160.220739	violation	protocol	HTTP	CUdk8s1iV9nkybYQM4	-	10.3.18.101	51432	139.196.72.155	8080	not a http request line	-
+1679109160.529503	violation	protocol	HTTP	CUdk8s1iV9nkybYQM4	-	10.3.18.101	51432	139.196.72.155	8080	not a http reply line	-
+1679109248.933925	violation	protocol	HTTP	Cim5If47uXWbdwxCm1	-	10.3.18.101	51438	178.62.112.199	8080	not a http request line	-
+1679109249.138492	violation	protocol	HTTP	Cim5If47uXWbdwxCm1	-	10.3.18.101	51438	178.62.112.199	8080	not a http reply line	-
+1679109394.059189	violation	protocol	HTTP	CoW47w2H4SOskvmLrb	-	10.3.18.101	51452	138.197.14.67	8080	not a http request line	-
+1679109394.158564	violation	protocol	HTTP	CoW47w2H4SOskvmLrb	-	10.3.18.101	51452	138.197.14.67	8080	not a http reply line	-
+1679109426.907323	violation	protocol	HTTP	CDwxDf2pancLaZyzfc	-	10.3.18.101	51455	115.178.55.22	80	not a http request line	-
+1679109427.240114	violation	protocol	HTTP	CDwxDf2pancLaZyzfc	-	10.3.18.101	51455	115.178.55.22	80	not a http reply line	-
+1679109435.553789	violation	protocol	NTP	CR5dDs3jVaTMSKtt5l	-	10.3.18.101	123	10.3.18.18	123	Binpac exception: binpac exception: out_of_bound: Extension_Field:value_len: 18 > 6	-
+1679109435.556016	violation	protocol	NTP	CR5dDs3jVaTMSKtt5l	-	10.3.18.101	123	10.3.18.18	123	Binpac exception: binpac exception: out_of_bound: Extension_Field:value: 227531797 > 72	-
+1679109539.410361	violation	protocol	HTTP	C1ClQe3CWD2DQUiGx	-	10.3.18.101	51465	103.224.241.74	8080	not a http request line	-
+1679109539.717348	violation	protocol	HTTP	C1ClQe3CWD2DQUiGx	-	10.3.18.101	51465	103.224.241.74	8080	not a http reply line	-
+1679109565.061242	violation	protocol	HTTP	C6hh5KpmeNKudRGYf	-	10.3.18.101	51468	198.199.70.22	8080	not a http request line	-
+1679109565.145801	violation	protocol	HTTP	C6hh5KpmeNKudRGYf	-	10.3.18.101	51468	198.199.70.22	8080	not a http reply line	-
+1679109607.300833	violation	protocol	HTTP	Cu3fei47v6XBhgo2x8	-	10.3.18.101	51473	139.196.72.155	8080	not a http request line	-
+1679109607.607305	violation	protocol	HTTP	Cu3fei47v6XBhgo2x8	-	10.3.18.101	51473	139.196.72.155	8080	not a http reply line	-
+1679109689.140780	violation	protocol	HTTP	C5YQn01bevOmY4Pzu5	-	10.3.18.101	51481	178.62.112.199	8080	not a http request line	-
+1679109689.308609	violation	protocol	HTTP	C5YQn01bevOmY4Pzu5	-	10.3.18.101	51481	178.62.112.199	8080	not a http reply line	-
+1679109829.073706	violation	protocol	HTTP	C449MM1cB76i66d55	-	10.3.18.101	51495	138.197.14.67	8080	not a http request line	-
+1679109829.164292	violation	protocol	HTTP	C449MM1cB76i66d55	-	10.3.18.101	51495	138.197.14.67	8080	not a http reply line	-
+1679109956.018214	violation	protocol	HTTP	CHivX71nUOO8PXVTF9	-	10.3.18.101	51509	103.224.241.74	8080	not a http request line	-
+1679109956.348443	violation	protocol	HTTP	CHivX71nUOO8PXVTF9	-	10.3.18.101	51509	103.224.241.74	8080	not a http reply line	-
+1679109981.802441	violation	protocol	HTTP	Cu6Knj4AEubrejXJBf	-	10.3.18.101	51512	198.199.70.22	8080	not a http request line	-
+1679109981.891024	violation	protocol	HTTP	Cu6Knj4AEubrejXJBf	-	10.3.18.101	51512	198.199.70.22	8080	not a http reply line	-
+#close	2023-04-23-17-25-49

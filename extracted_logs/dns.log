@@ -1,0 +1,39 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2023-04-24-20-48-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1682369132.445906	CG1eU73FKlTtOS194a	192.168.1.68	5353	224.0.0.251	5353	udp	0	-	6e0a8279-ca69-5719-f282-99b169ccc7c7._googlezone._tcp.local	1	C_INTERNET	33	SRV	0	NOERROR	T	F	F	F	0	6e0a8279-ca69-5719-f282-99b169ccc7c7.local	120.000000	F
+1682369132.445906	CQgTAk3cQTdDXstdOb	fe80::32fd:38ff:feaa:924f	5353	ff02::fb	5353	udp	0	0.001270	6e0a8279-ca69-5719-f282-99b169ccc7c7._googlezone._tcp.local	1	C_INTERNET	33	SRV	0	NOERROR	T	F	F	F	0	6e0a8279-ca69-5719-f282-99b169ccc7c7.local	120.000000	F
+1682369132.855513	CG1eU73FKlTtOS194a	192.168.1.68	5353	224.0.0.251	5353	udp	0	0.000176	_googlezone._tcp.local	1	C_INTERNET	12	PTR	0	NOERROR	T	F	F	F	0	6e0a8279-ca69-5719-f282-99b169ccc7c7._googlezone._tcp.local	120.000000	F
+1682369132.855513	CQgTAk3cQTdDXstdOb	fe80::32fd:38ff:feaa:924f	5353	ff02::fb	5353	udp	0	0.102480	_googlezone._tcp.local	1	C_INTERNET	12	PTR	0	NOERROR	T	F	F	F	0	6e0a8279-ca69-5719-f282-99b169ccc7c7._googlezone._tcp.local	120.000000	F
+1682369168.036174	CVMafcDoVpazparKl	192.168.1.70	62992	1.1.1.1	53	udp	55429	0.051136	alert-eu.battle.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.244.28.103	52.000000	F
+1682369168.073702	CSJZ2j3C4hcr8pObP5	192.168.1.70	62992	1.0.0.1	53	udp	55429	0.062512	alert-eu.battle.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.244.28.103	87.000000	F
+1682369184.383666	C7jIV54rZKzv3HL8na	192.168.1.70	58250	1.1.1.1	53	udp	4114	0.065197	assets.msn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	assets.msn.com.edgekey.net,e28578.d.akamaiedge.net,2.23.209.59,2.23.209.51,2.23.209.3	21550.000000,850.000000,1.000000,1.000000,1.000000	F
+1682369184.383666	C5U7WQ1C8aiOAvpshj	192.168.1.70	58669	1.1.1.1	53	udp	24474	0.065197	spclient.wg.spotify.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	edge-web.dual-gslb.spotify.com,35.186.224.25	248.000000,98.000000	F
+1682369184.415176	CHIK0L2MKo82qfe8c9	192.168.1.70	58669	1.0.0.1	53	udp	24474	0.057555	spclient.wg.spotify.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	edge-web.dual-gslb.spotify.com,35.186.224.25	270.000000,120.000000	F
+1682369184.415176	CLBTY42R20fGKD6rGl	192.168.1.70	58250	1.0.0.1	53	udp	4114	0.065557	assets.msn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	assets.msn.com.edgekey.net,e28578.d.akamaiedge.net,2.23.209.59,2.23.209.51,2.23.209.3	21569.000000,869.000000,5.000000,5.000000,5.000000	F
+1682369190.250977	CIT5lv2Ut9rPjG6n7h	192.168.1.70	5353	224.0.0.251	5353	udp	0	0.003072	loris-desktop.local	1	C_INTERNET	255	*	0	NOERROR	T	F	F	F	0	192.168.1.70	60.000000	F
+1682369190.252351	CIT5lv2Ut9rPjG6n7h	192.168.1.70	5353	224.0.0.251	5353	udp	0	0.002279	loris-desktop.local	1	C_INTERNET	255	*	0	NOERROR	T	F	F	F	0	192.168.1.70	60.000000	F
+1682369190.252025	CgfjD01YoIHqb1Heaa	192.168.1.70	56001	224.0.0.252	5355	udp	33568	-	loris-desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1682369191.734910	CnMQyRpCnOhMN96D8	192.168.1.68	5353	224.0.0.251	5353	udp	0	-	_googlecast._tcp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	google-home-mini-6e0a8279ca695719f28299b169ccc7c7._googlecast._tcp.local	120.000000	F
+1682369202.384362	CLxIRW1bouUteOoUZ	192.168.1.68	5353	224.0.0.251	5353	udp	0	-	_googlecast._tcp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	google-home-mini-6e0a8279ca695719f28299b169ccc7c7._googlecast._tcp.local	120.000000	F
+1682369203.408388	CLxIRW1bouUteOoUZ	192.168.1.68	5353	224.0.0.251	5353	udp	0	-	_googlecast._tcp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	google-home-mini-6e0a8279ca695719f28299b169ccc7c7._googlecast._tcp.local	120.000000	F
+1682369212.419457	CVluhw1WI68c28ZEC2	192.168.1.68	5353	224.0.0.251	5353	udp	0	-	_googlecast._tcp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	google-home-mini-6e0a8279ca695719f28299b169ccc7c7._googlecast._tcp.local	120.000000	F
+1682369213.443663	CVluhw1WI68c28ZEC2	192.168.1.68	5353	224.0.0.251	5353	udp	0	-	_googlecast._tcp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	google-home-mini-6e0a8279ca695719f28299b169ccc7c7._googlecast._tcp.local	120.000000	F
+1682369228.388595	CnNaHS2KNzCNzP8qA8	192.168.1.70	55727	1.1.1.1	53	udp	40916	0.026814	ctldl.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wu-bg-shim.trafficmanager.net,fg.download.windowsupdate.com.c.footprint.net,8.253.95.121,8.248.131.254,8.241.123.126,8.241.9.126,67.26.81.254	3247.000000,247.000000,72.000000,72.000000,72.000000,72.000000,72.000000	F
+1682369228.526785	CnNaHS2KNzCNzP8qA8	192.168.1.70	55727	1.1.1.1	53	udp	5357	0.038074	x1.c.lencr.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.root-x1.letsencrypt.org.edgekey.net,e8652.dscx.akamaiedge.net,23.37.41.57	105.000000,21585.000000,5.000000	F
+1682369229.110585	CwUY4B4sceEKTQ95i4	192.168.1.68	5353	224.0.0.251	5353	udp	0	-	_googlezone._tcp.local	1	C_INTERNET	12	PTR	0	NOERROR	T	F	F	F	0	6e0a8279-ca69-5719-f282-99b169ccc7c7._googlezone._tcp.local	120.000000	F
+1682369229.110585	C052zD4IdNRp2y4NB3	fe80::32fd:38ff:feaa:924f	5353	ff02::fb	5353	udp	0	0.102377	_googlezone._tcp.local	1	C_INTERNET	12	PTR	0	NOERROR	T	F	F	F	0	6e0a8279-ca69-5719-f282-99b169ccc7c7._googlezone._tcp.local	120.000000	F
+1682369191.632586	Cisf6i1EhNqx91ld75	192.168.1.249	5353	224.0.0.251	5353	udp	6	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1682369202.281962	Cisf6i1EhNqx91ld75	192.168.1.249	5353	224.0.0.251	5353	udp	2	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1682369212.317186	Cisf6i1EhNqx91ld75	192.168.1.249	5353	224.0.0.251	5353	udp	2	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1682369203.305923	Cisf6i1EhNqx91ld75	192.168.1.249	5353	224.0.0.251	5353	udp	3	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1682369213.341293	Cisf6i1EhNqx91ld75	192.168.1.249	5353	224.0.0.251	5353	udp	3	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1682369201.258054	Cisf6i1EhNqx91ld75	192.168.1.249	5353	224.0.0.251	5353	udp	1	-	_googlecast._tcp.local	32769	qclass-32769	12	PTR	-	-	F	F	F	F	0	-	-	F
+1682369211.293208	Cisf6i1EhNqx91ld75	192.168.1.249	5353	224.0.0.251	5353	udp	1	-	_googlecast._tcp.local	32769	qclass-32769	12	PTR	-	-	F	F	F	F	0	-	-	F
+1682369249.963410	CvWmQG13jSFHG5hQ0h	192.168.1.70	62639	1.1.1.1	53	udp	34663	0.028481	settings-win.data.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	atm-settingsfe-prod-geo2.trafficmanager.net,settings-prod-neu-1.northeurope.cloudapp.azure.com,40.127.240.158	3595.000000,55.000000,5.000000	F
+#close	2023-04-24-20-48-19
