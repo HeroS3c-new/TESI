@@ -1,5 +1,5 @@
 pcap_filename="$1"
-container_id=$(sudo docker run -itd zeekurity/zeek)
+container_id=$(sudo docker run -itd zeek/zeek)
 
 sudo docker cp $1 $container_id:/home/$pcap_filename
 
