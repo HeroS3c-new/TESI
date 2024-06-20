@@ -1,0 +1,89 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2024-06-14-15-12-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1717950525.113716	C2BmVW2SoGQRL8BTTa	10.0.2.15	34962	1.1.1.1	53	udp	63794	-	sir.john.ya.ya.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950531.093925	Coik8kZGaPOi9fb1f	10.0.2.15	49599	1.1.1.1	53	udp	24934	-	duke.john.bear.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950536.572744	C7Lge41kk2gj4j2Woe	10.0.2.15	41479	1.1.1.1	53	udp	30357	-	prof.john.roberts.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950542.534860	CeBmcC2YLO3j64TdJ5	10.0.2.15	54777	1.1.1.1	53	udp	52437	-	lord.john.thorny.stick.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950548.667130	CgeAap1gOHpE5DQwD9	10.0.2.15	42627	1.1.1.1	53	udp	30014	-	capt.john.rajeesh.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950554.618961	CuVC3q2pZ5eTiu7tm3	10.0.2.15	59418	1.1.1.1	53	udp	43434	-	prof.john.deer.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950560.598036	CUUGJPPSLy3Lp7Xbe	10.0.2.15	46767	1.1.1.1	53	udp	17117	-	mr.john.glow.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950566.036336	COaefgvRrBtlzPqM3	10.0.2.15	50783	1.1.1.1	53	udp	30697	-	lord.john.careful.walker.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950571.979865	CBozbJ3KVvUnDgeFik	10.0.2.15	42495	1.1.1.1	53	udp	36747	-	duke.john.wright.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950577.966909	CIEZbN1B762TeMRUD3	10.0.2.15	38545	1.1.1.1	53	udp	53976	-	sir.john.kim.chi.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950584.032918	CAtkY74fBBh9Nd4Ojd	10.0.2.15	42778	1.1.1.1	53	udp	13053	-	lord.john.landing.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950589.506126	CKcptjQLJ85Q6byjf	10.0.2.15	49857	1.1.1.1	53	udp	24646	-	mr.john.grim.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950595.546011	CyvNsetChwWatllf7	10.0.2.15	50811	1.1.1.1	53	udp	46396	-	sir.john.ya.ya.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950601.935728	CeaN4M9LCxwX8oX16	10.0.2.15	37292	1.1.1.1	53	udp	41518	-	duke.john.kim.chi.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950607.907461	CqjdEE4dKjwdPWwwsi	10.0.2.15	56351	1.1.1.1	53	udp	34606	-	mr.john.turk.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950613.294668	CbszpN9sAOYnRNWzi	10.0.2.15	34805	1.1.1.1	53	udp	4794	-	prof.john.landing.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950618.667296	CdYTrq3kUY19XHAtBh	10.0.2.15	43080	1.1.1.1	53	udp	11652	-	capt.john.mud.head.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950624.619420	C15KAJ2kH6bbVKMazc	10.0.2.15	46697	1.1.1.1	53	udp	58377	-	sir.john.edwards.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950630.166065	ChGTR5YfStDx7efUa	10.0.2.15	59984	1.1.1.1	53	udp	9634	-	dr.john.nephew.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950636.178735	CQZZy11J1H6KH29Cd1	10.0.2.15	42461	1.1.1.1	53	udp	28016	-	duke.john.starbird.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950642.268942	C3bMrG1CwqtHSHocKc	10.0.2.15	47918	1.1.1.1	53	udp	14577	-	mr.john.milton.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950648.345494	CoGS0T3GPjGiggH0Pi	10.0.2.15	44454	1.1.1.1	53	udp	52955	-	capt.john.bear.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950653.775210	CWFUQ43kzfE2QAzbEl	10.0.2.15	39356	1.1.1.1	53	udp	31118	-	dr.john.mud.head.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950660.167521	Cv26o81b52WGAqkVp8	10.0.2.15	48157	1.1.1.1	53	udp	14236	-	lord.john.grim.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950666.151878	CAFnJV37S7Jbs0HqS9	10.0.2.15	60236	1.1.1.1	53	udp	60645	-	capt.john.berry.pie.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950671.684572	CzeaBA25ov1mpL1foh	10.0.2.15	54040	1.1.1.1	53	udp	29550	-	lord.john.jones.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950678.112090	Cp6mIK1TukTr3PXyM8	10.0.2.15	46945	1.1.1.1	53	udp	42138	-	mr.john.landing.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950683.481511	CTzlfx14kXUWuN11D6	10.0.2.15	46120	1.1.1.1	53	udp	58167	-	duke.john.parrot.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950689.403594	Cxc95c3YcwIeB9px3j	10.0.2.15	48427	1.1.1.1	53	udp	22789	-	capt.john.two.horns.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950695.856513	C8h8La13DdIIA86QTb	10.0.2.15	57435	1.1.1.1	53	udp	65317	-	prof.john.fat.eating.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950702.282905	CEeIcw2R4ZTbd7GTGd	10.0.2.15	36055	1.1.1.1	53	udp	12898	-	mr.john.ready.to.fly.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950708.310683	CQO2ra2BiX15hHMq27	10.0.2.15	46936	1.1.1.1	53	udp	4102	-	prof.john.omar.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950714.276302	CeiajP1JOcog1N6YA7	10.0.2.15	57212	1.1.1.1	53	udp	44289	-	dr.john.ya.ya.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950720.611160	Cemwsin1BZwT44sSk	10.0.2.15	39483	1.1.1.1	53	udp	10481	-	mr.john.whorfin.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950727.028854	C6VSvP23RN4fi1Ohha	10.0.2.15	53373	1.1.1.1	53	udp	24364	-	lord.john.starbird.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950733.415686	C4AHCc2N3qmQdZErY3	10.0.2.15	52160	1.1.1.1	53	udp	62243	-	duke.john.milton.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950739.840274	Cd4D072oc6ilQiS341	10.0.2.15	56684	1.1.1.1	53	udp	59477	-	sir.john.milton.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950745.798133	C21vcq1uJSsBnZELx7	10.0.2.15	55283	1.1.1.1	53	udp	13436	-	capt.john.edwards.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950751.785129	CFjqHw2sxC2cE0A0T3	10.0.2.15	40429	1.1.1.1	53	udp	22909	-	prof.john.ready.to.fly.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950758.181053	CLtN4h3MqtxTFMbYYh	10.0.2.15	53792	1.1.1.1	53	udp	15515	-	sir.john.mask.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950764.151570	Cpecwh1xx2MfSctol7	10.0.2.15	51166	1.1.1.1	53	udp	64455	-	capt.john.mud.head.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950770.527200	CdFcc24NzUqard2HS8	10.0.2.15	34062	1.1.1.1	53	udp	22269	-	prof.john.kim.chi.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950776.567317	Ct8h1t3IqvIlNNIJ48	10.0.2.15	42898	1.1.1.1	53	udp	33353	-	sir.john.roberts.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950782.646386	Cw687j4jqwlxUOYSLe	10.0.2.15	33250	1.1.1.1	53	udp	19821	-	dr.john.thorny.stick.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950788.750879	C4iU084aYJnjknoGR1	10.0.2.15	52795	1.1.1.1	53	udp	26412	-	mr.john.scientist.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950795.162627	Ca27Ow1aU8zeUeqqjg	10.0.2.15	45360	1.1.1.1	53	udp	41435	-	sir.john.bin.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950800.798303	Ce3NBSynWriRLKPpa	10.0.2.15	55689	1.1.1.1	53	udp	14806	-	capt.john.starbird.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950806.848293	CNKpkMxeQdQRCoNp3	10.0.2.15	54898	1.1.1.1	53	udp	55447	-	dr.john.parrot.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950813.324254	CDgbV13ZKFVMCTVU0j	10.0.2.15	43180	1.1.1.1	53	udp	30943	-	duke.john.ya.ya.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950819.425332	CZ8nwZ3jUmvWTZN2lj	10.0.2.15	38357	1.1.1.1	53	udp	49335	-	sir.john.shaw.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950825.434499	CPqlhe4iWGToz9n5I3	10.0.2.15	33431	1.1.1.1	53	udp	61915	-	dr.john.fish.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950831.475278	CkBaKC2fMaIHYtL8O2	10.0.2.15	57225	1.1.1.1	53	udp	49637	-	mr.john.starbird.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950837.471909	C7VUE93TUtbaidnIz3	10.0.2.15	46437	1.1.1.1	53	udp	22499	-	duke.john.wright.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950843.534566	Cxrmgh4Zd7z4TNCU53	10.0.2.15	33010	1.1.1.1	53	udp	47229	-	lord.john.mask.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950849.531833	Ca6tU82oz7KP88WfI7	10.0.2.15	58851	1.1.1.1	53	udp	57299	-	prof.john.bin.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950854.912539	CNAHNS2QUuDw4kz4z9	10.0.2.15	56611	1.1.1.1	53	udp	38672	-	sir.john.scott.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950861.259799	CQO6sO1en9yYwA82fj	10.0.2.15	35539	1.1.1.1	53	udp	710	-	prof.john.milton.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950867.214636	CCafIR1zgicJKAyu48	10.0.2.15	45992	1.1.1.1	53	udp	46988	-	dr.john.bear.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950872.603506	CRlZg83Ynszc7Tsynd	10.0.2.15	49276	1.1.1.1	53	udp	19034	-	duke.john.nephew.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950878.557894	ChgcAR3RqBMcqor2dd	10.0.2.15	55241	1.1.1.1	53	udp	37533	-	dr.john.titrate.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950884.644262	CKj9mJ20Wd35tHqonh	10.0.2.15	43760	1.1.1.1	53	udp	57802	-	duke.john.berry.pie.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950890.598919	CemFZl3Np4HoWAPA46	10.0.2.15	54577	1.1.1.1	53	udp	55194	-	mr.john.kim.chi.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950896.596449	CVEZXS1z9SYxYaovD7	10.0.2.15	39606	1.1.1.1	53	udp	33607	-	lord.john.parrot.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950902.605547	C2O9PL2gKSsGslN1I8	10.0.2.15	60381	1.1.1.1	53	udp	53000	-	dr.john.careful.walker.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950908.524604	CoI0Wc1qujqmqIXYdk	10.0.2.15	44771	1.1.1.1	53	udp	12098	-	duke.john.berry.pie.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950914.095146	CZwqFwSsoGUWyrt42	10.0.2.15	38612	1.1.1.1	53	udp	41071	-	mr.john.kim.chi.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950920.096625	CCiLvr3PTC9kaPeUL1	10.0.2.15	57881	1.1.1.1	53	udp	48601	-	capt.john.roberts.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950926.189689	ChyJQB2B4al3IvEPO6	10.0.2.15	54321	1.1.1.1	53	udp	26512	-	mr.john.grim.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950932.130550	CuG2u5KeisVjuLfIg	10.0.2.15	35615	1.1.1.1	53	udp	15343	-	sir.john.cog.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950938.176896	CFYOdi4pZhs5Hty3uf	10.0.2.15	40097	1.1.1.1	53	udp	1427	-	duke.john.landing.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950943.952811	CeSGVb3qOj4AT70Q4c	10.0.2.15	50974	1.1.1.1	53	udp	29522	-	prof.john.glow.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950949.327067	C21PZx4Kp0dbPh6ms	10.0.2.15	48547	1.1.1.1	53	udp	50904	-	duke.john.mask.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950955.269756	C6QMDJ3RpP97i08MI9	10.0.2.15	57461	1.1.1.1	53	udp	7791	-	lord.john.berry.pie.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950961.347550	CbkPEt2kgByWcqGll5	10.0.2.15	42316	1.1.1.1	53	udp	13095	-	mr.john.shaw.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950967.705328	C5pnyc32HUhAnfuy4i	10.0.2.15	42369	1.1.1.1	53	udp	21878	-	dr.john.fish.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950973.694494	CI7wWs1SFQVanCd8Li	10.0.2.15	47492	1.1.1.1	53	udp	15633	-	prof.john.landing.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950979.087063	Ci2ujrH0NggXPNv4	10.0.2.15	38516	1.1.1.1	53	udp	33331	-	dr.john.mud.head.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950985.570064	CW9DSw19osmg2LAL1e	10.0.2.15	33579	1.1.1.1	53	udp	60309	-	prof.john.bin.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950991.381743	CrZuwv1kuBJCYBTIze	10.0.2.15	55980	1.1.1.1	53	udp	61076	-	dr.john.bigboote.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1717950997.804953	Cwk0RP1BZR1BnRTWn3	10.0.2.15	55377	1.1.1.1	53	udp	13314	-	capt.john.joseph.yoyodyne.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2024-06-14-15-12-01

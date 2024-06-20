@@ -2,13 +2,13 @@ Da installare
 
 - [x] Perl DNS Tunneling (DNS Tunnel)
 - [x] NSTX
-- [x] iodine
-- [x] DNScat -> PCAP pronto
+- [x] iodine -> TESTATO
+- [x] DNScat -> TESTATO
 - [x] OzymanDNS
-- [x] dns2tcp
+- [x] dns2tcp -> TESTATO
 - [ ] TUNS
 - [x] Heyoka
 - [x] netcross
 - [x] DNSExfiltrator
 - [x] Coyote
-- [x] PacketWhisper
+- [x] PacketWhisper -> TESTATO

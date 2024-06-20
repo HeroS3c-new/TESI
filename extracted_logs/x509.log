@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2024-06-14-13-22-23
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1718269121.115314	91adb9ad9abcf070d86eb0ec2c02dde171cfecc4f4f5fcc63997209ad2926191	3	5171D2024D3BD0DF3013760BBC763BAA	CN=*.mateti.net	CN=Sectigo RSA Domain Validation Secure Server CA,O=Sectigo Limited,L=Salford,ST=Greater Manchester,C=GB	1707264000.000000	1736726399.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	*.mateti.net,mateti.net	-	-	-	F	-	T	F
+1718269121.115314	7fa4ff68ec04a99d7528d5085f94907f4d1dd1c5381bacdc832ed5c960214676	3	7D5B5126B476BA11DB74160BBC530DA7	CN=Sectigo RSA Domain Validation Secure Server CA,O=Sectigo Limited,L=Salford,ST=Greater Manchester,C=GB	CN=USERTrust RSA Certification Authority,O=The USERTRUST Network,L=Jersey City,ST=New Jersey,C=US	1541116800.000000	1924991999.000000	rsaEncryption	sha384WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	0	F	F
+#close	2024-06-14-13-22-24

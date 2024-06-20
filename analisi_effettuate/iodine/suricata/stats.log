@@ -1,0 +1,38 @@
+------------------------------------------------------------------------------------
+Date: 6/14/2024 -- 15:21:39 (uptime: 0d, 00h 00m 59s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+decoder.pkts                                  | Total                     | 7711
+decoder.bytes                                 | Total                     | 16472558
+decoder.ipv4                                  | Total                     | 7711
+decoder.sll                                   | Total                     | 7711
+decoder.tcp                                   | Total                     | 4882
+tcp.syn                                       | Total                     | 134
+tcp.synack                                    | Total                     | 123
+tcp.rst                                       | Total                     | 66
+decoder.udp                                   | Total                     | 2829
+decoder.avg_pkt_size                          | Total                     | 2136
+decoder.max_pkt_size                          | Total                     | 64296
+flow.total                                    | Total                     | 273
+flow.tcp                                      | Total                     | 134
+flow.udp                                      | Total                     | 139
+flow.wrk.spare_sync_avg                       | Total                     | 100
+flow.wrk.spare_sync                           | Total                     | 4
+tcp.invalid_checksum                          | Total                     | 3010
+detect.alert                                  | Total                     | 3819
+app_layer.flow.quic                           | Total                     | 35
+app_layer.tx.quic                             | Total                     | 74
+app_layer.flow.dns_udp                        | Total                     | 104
+app_layer.tx.dns_udp                          | Total                     | 493
+flow.end.state.new                            | Total                     | 134
+flow.end.state.established                    | Total                     | 139
+flow.mgr.rows_per_sec                         | Total                     | 6553
+flow.spare                                    | Total                     | 9600
+memcap_pressure                               | Total                     | 5
+memcap_pressure_max                           | Total                     | 5
+flow.recycler.recycled                        | Total                     | 273
+flow.recycler.queue_max                       | Total                     | 148
+tcp.memuse                                    | Total                     | 2424832
+tcp.reassembly_memuse                         | Total                     | 458752
+flow.memuse                                   | Total                     | 7154304

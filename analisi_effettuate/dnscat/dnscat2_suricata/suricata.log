@@ -1,0 +1,18 @@
+[2098918 - Suricata-Main] 2024-05-25 16:55:46 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in USER mode
+[2098918 - Suricata-Main] 2024-05-25 16:55:46 Info: cpu: CPUs/cores online: 4
+[2098918 - Suricata-Main] 2024-05-25 16:55:46 Info: suricata: Setting engine mode to IDS mode by default
+[2098918 - Suricata-Main] 2024-05-25 16:55:46 Info: exception-policy: master exception-policy set to: auto
+[2098918 - Suricata-Main] 2024-05-25 16:55:46 Info: logopenfile: fast output device (regular) initialized: fast.log
+[2098918 - Suricata-Main] 2024-05-25 16:55:46 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[2098918 - Suricata-Main] 2024-05-25 16:55:46 Info: logopenfile: stats output device (regular) initialized: stats.log
+[2098918 - Suricata-Main] 2024-05-25 16:56:17 Info: detect: 1 rule files processed. 43965 rules successfully loaded, 0 rules failed, 0
+[2098918 - Suricata-Main] 2024-05-25 16:56:17 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[2098918 - Suricata-Main] 2024-05-25 16:56:17 Info: detect: 43968 signatures processed. 1194 are IP-only rules, 4987 are inspecting packet payload, 37575 inspect application layer, 108 are decoder event only
+[2098918 - Suricata-Main] 2024-05-25 16:56:36 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[2099319 - RX#01] 2024-05-25 16:56:36 Info: pcap: Starting file run for ../dnscat2_shell.pcapng
+[2099319 - RX#01] 2024-05-25 16:56:36 Info: pcap: pcap file ../dnscat2_shell.pcapng end of file reached (pcap err code 0)
+[2098918 - Suricata-Main] 2024-05-25 16:56:36 Notice: threads: Threads created -> RX: 1 W: 4 FM: 1 FR: 1   Engine started.
+[2098918 - Suricata-Main] 2024-05-25 16:56:36 Notice: suricata: Signal Received.  Stopping engine.
+[2098918 - Suricata-Main] 2024-05-25 16:56:36 Info: suricata: time elapsed 0.272s
+[2099319 - RX#01] 2024-05-25 16:56:36 Notice: pcap: read 1 file, 485 packets, 71491 bytes
+[2098918 - Suricata-Main] 2024-05-25 16:56:36 Info: counters: Alerts: 239

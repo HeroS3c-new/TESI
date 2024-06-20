@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2024-06-14-15-18-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1718268939.453725	CrAS3u2iGtRsAFze7i	10.0.2.15	46557	192.168.1.30	53	DNS_RR_unknown_type	10	F	zeek	DNS
+1718269050.370148	CMuf4V2QaiW2BmERW8	10.0.0.2	37402	10.0.0.2	22	ssh_unknown_kex_algorithm	sntrup761x25519-sha512@openssh.com	F	zeek	SSH
+#close	2024-06-14-15-18-19

@@ -1,0 +1,20 @@
+[848775 - Suricata-Main] 2024-06-14 14:40:03 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in USER mode
+[848775 - Suricata-Main] 2024-06-14 14:40:03 Info: cpu: CPUs/cores online: 4
+[848775 - Suricata-Main] 2024-06-14 14:40:03 Info: suricata: Setting engine mode to IDS mode by default
+[848775 - Suricata-Main] 2024-06-14 14:40:03 Info: exception-policy: master exception-policy set to: auto
+[848775 - Suricata-Main] 2024-06-14 14:40:03 Info: logopenfile: fast output device (regular) initialized: fast.log
+[848775 - Suricata-Main] 2024-06-14 14:40:03 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[848775 - Suricata-Main] 2024-06-14 14:40:03 Info: logopenfile: stats output device (regular) initialized: stats.log
+[848775 - Suricata-Main] 2024-06-14 14:40:32 Info: detect: 1 rule files processed. 43965 rules successfully loaded, 0 rules failed, 0
+[848775 - Suricata-Main] 2024-06-14 14:40:32 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[848775 - Suricata-Main] 2024-06-14 14:40:33 Info: detect: 43968 signatures processed. 1194 are IP-only rules, 4987 are inspecting packet payload, 37575 inspect application layer, 108 are decoder event only
+[848775 - Suricata-Main] 2024-06-14 14:40:50 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[848775 - Suricata-Main] 2024-06-14 14:40:50 Warning: unix-manager: Unix socket: UNIX socket bind(/var/run/suricata-command.socket) error: Permission denied
+[848775 - Suricata-Main] 2024-06-14 14:40:50 Warning: unix-manager: Unable to create unix command socket
+[849080 - RX#01] 2024-06-14 14:40:50 Info: pcap: Starting file run for pcaps/PacketWhisper/Unique_Repeating_FQDNs_no_delay.pcapng
+[848775 - Suricata-Main] 2024-06-14 14:40:50 Notice: threads: Threads created -> RX: 1 W: 4 FM: 1 FR: 1   Engine started.
+[849080 - RX#01] 2024-06-14 14:40:50 Info: pcap: pcap file pcaps/PacketWhisper/Unique_Repeating_FQDNs_no_delay.pcapng end of file reached (pcap err code 0)
+[848775 - Suricata-Main] 2024-06-14 14:40:50 Notice: suricata: Signal Received.  Stopping engine.
+[848775 - Suricata-Main] 2024-06-14 14:40:50 Info: suricata: time elapsed 0.383s
+[849080 - RX#01] 2024-06-14 14:40:50 Notice: pcap: read 1 file, 181 packets, 20200 bytes
+[848775 - Suricata-Main] 2024-06-14 14:40:50 Info: counters: Alerts: 80

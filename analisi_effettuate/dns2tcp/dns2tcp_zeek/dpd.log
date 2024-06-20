@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2024-05-25-16-34-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1716062761.810229	C747ag3jo1rdEmgO9a	127.0.0.1	34668	127.0.0.1	8080	tcp	HTTP	not a http reply line
+1716062824.475742	ClX0qG2MHkOgTO33j4	127.0.0.1	49886	127.0.0.1	8080	tcp	HTTP	not a http reply line
+1716062824.501327	C0KmPH2zimgPmCjssd	127.0.0.1	49890	127.0.0.1	8080	tcp	HTTP	not a http reply line
+1716062824.672299	CzHGRz4rAlycshfkMi	127.0.0.1	49910	127.0.0.1	8080	tcp	HTTP	not a http reply line
+1716062833.876528	ChgZXt4cFhIEYqW2i8	127.0.0.1	34588	127.0.0.1	8080	tcp	DCE_RPC	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers
+1716062884.284358	CFxeq4wSnu2u2vHU	127.0.0.1	56518	127.0.0.1	8080	tcp	HTTP	not a http reply line
+1716062884.284408	CTQQ3F48zsFgB7P1X7	127.0.0.1	41512	127.0.0.1	8080	tcp	HTTP	not a http reply line
+1716062909.021074	CiOxHcyWTZdUNKHAj	127.0.0.1	41528	127.0.0.1	8080	tcp	DCE_RPC	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers
+#close	2024-05-25-16-34-23

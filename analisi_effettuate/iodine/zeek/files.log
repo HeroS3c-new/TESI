@@ -1,0 +1,92 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2024-06-14-15-18-19
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	set[addr]	set[addr]	set[string]	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1718268945.186342	F6GaIb3HGycNPqpjX1	10.0.2.15	2.16.241.8	CytPi82cXErQH9rbPa	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	85	85	0	0	F	-	-	-	-	-	-	-
+1718268945.239626	FO2nZ21NEYdlDHLcw1	2.16.241.8	10.0.2.15	CytPi82cXErQH9rbPa	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	503	503	0	0	F	-	-	-	-	-	-	-
+1718268945.249056	FofDZI1CCByMbJO7s3	10.0.2.15	2.16.241.8	CytPi82cXErQH9rbPa	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	85	85	0	0	F	-	-	-	-	-	-	-
+1718268945.301979	Fjjnng2iT58040vnz6	2.16.241.8	10.0.2.15	CytPi82cXErQH9rbPa	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	503	503	0	0	F	-	-	-	-	-	-	-
+1718268945.435776	FnfgcC2IoqNlVQAiaj	10.0.2.15	2.16.241.8	CytPi82cXErQH9rbPa	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	85	85	0	0	F	-	-	-	-	-	-	-
+1718268945.487493	FUBYAe2exfpaA2qrv3	2.16.241.8	10.0.2.15	CytPi82cXErQH9rbPa	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	503	503	0	0	F	-	-	-	-	-	-	-
+1718268946.475462	FYDzbt4Hh6bvcFqs2e	10.0.2.15	2.16.241.8	CytPi82cXErQH9rbPa	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	85	85	0	0	F	-	-	-	-	-	-	-
+1718268946.516616	FqEses4z2IVlV4EFb7	2.16.241.8	10.0.2.15	CytPi82cXErQH9rbPa	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	503	503	0	0	F	-	-	-	-	-	-	-
+1718268948.527742	FjMQAm4XyYN2r50xDj	10.0.2.15	2.16.241.8	CytPi82cXErQH9rbPa	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	85	85	0	0	F	-	-	-	-	-	-	-
+1718268948.541285	FTC4upjDh8BjQfMi	10.0.2.15	216.58.206.35	CYcxPD1tG8b2XP7kcg	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	84	84	0	0	F	-	-	-	-	-	-	-
+1718268948.576010	Fhz8Tx4lk8TDfs4gFg	2.16.241.8	10.0.2.15	CytPi82cXErQH9rbPa	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	503	503	0	0	F	-	-	-	-	-	-	-
+1718268948.594670	F1akFSZHeE8D1NVBl	216.58.206.35	10.0.2.15	CYcxPD1tG8b2XP7kcg	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	472	472	0	0	F	-	-	-	-	-	-	-
+1718268949.277794	FumcMu4MuUToGaVGq7	10.0.2.15	2.16.241.8	CytPi82cXErQH9rbPa	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	85	85	0	0	F	-	-	-	-	-	-	-
+1718268949.341860	FoC2jw4Bc3BHmVi4ac	2.16.241.8	10.0.2.15	CytPi82cXErQH9rbPa	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	503	503	0	0	F	-	-	-	-	-	-	-
+1718268955.398143	FFwkxo2rkc0QfKYU2i	10.0.2.15	2.16.241.8	CytPi82cXErQH9rbPa	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	85	85	0	0	F	-	-	-	-	-	-	-
+1718268955.450949	FV3xcQ78OeXZvHuf	2.16.241.8	10.0.2.15	CytPi82cXErQH9rbPa	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	503	503	0	0	F	-	-	-	-	-	-	-
+1718268955.451806	FI46gk1Vxpe2wEBiF4	10.0.2.15	2.16.241.8	CytPi82cXErQH9rbPa	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	85	85	0	0	F	-	-	-	-	-	-	-
+1718268955.497140	FnXKsp2qeiYuiNePEb	2.16.241.8	10.0.2.15	CytPi82cXErQH9rbPa	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	503	503	0	0	F	-	-	-	-	-	-	-
+1718268955.851347	FpENcT3ruIlqJ5ccZ7	10.0.2.15	2.16.241.15	CVWy7R3yERgyRXnUY1	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	85	85	0	0	F	-	-	-	-	-	-	-
+1718268955.887350	FMZWSw448SztQJj4Cj	2.16.241.15	10.0.2.15	CVWy7R3yERgyRXnUY1	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	503	503	0	0	F	-	-	-	-	-	-	-
+1718268988.273760	FWpejf3g1abzLeBtl1	34.107.221.82	10.0.2.15	CD8pmb2r1Uq5SrFqv8	HTTP	0	(empty)	-	-	0.000000	F	F	8	8	0	0	F	-	-	-	-	-	-	-
+1718269060.966507	FIOdU73Q294PQ1zFjc	10.0.2.15	142.250.186.163	CKO8vK0sPt2hgjcEg	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	84	84	0	0	F	-	-	-	-	-	-	-
+1718269060.971652	Fps1AW3XDFRurGe8oe	10.0.2.15	142.250.186.163	CDNKT7sIHnL1IZKJc	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	84	84	0	0	F	-	-	-	-	-	-	-
+1718269061.024961	F7yT2x3XjeNzSbXw05	142.250.186.163	10.0.2.15	CKO8vK0sPt2hgjcEg	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	472	472	0	0	F	-	-	-	-	-	-	-
+1718269061.024961	Fcp7QB2F10YXMakb19	142.250.186.163	10.0.2.15	CDNKT7sIHnL1IZKJc	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	472	472	0	0	F	-	-	-	-	-	-	-
+1718269061.373590	FgDXTF1pvTXiM8aFx4	10.0.2.15	142.250.186.163	CKO8vK0sPt2hgjcEg	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	84	84	0	0	F	-	-	-	-	-	-	-
+1718269061.422353	FL8SZ3igpw1FXoDU3	142.250.186.163	10.0.2.15	CKO8vK0sPt2hgjcEg	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	472	472	0	0	F	-	-	-	-	-	-	-
+1718269062.159826	FeCXiB28mSSzwAjbpf	10.0.2.15	142.250.186.163	CDNKT7sIHnL1IZKJc	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	84	84	0	0	F	-	-	-	-	-	-	-
+1718269062.161487	FDUTtP3pf5OLVN1zh	10.0.2.15	142.250.186.163	CKO8vK0sPt2hgjcEg	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	84	84	0	0	F	-	-	-	-	-	-	-
+1718269062.216405	Ffvwq62iVtLlJCT9r6	142.250.186.163	10.0.2.15	CDNKT7sIHnL1IZKJc	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	472	472	0	0	F	-	-	-	-	-	-	-
+1718269062.219734	FCFFHV36Jztv9OoLeb	142.250.186.163	10.0.2.15	CKO8vK0sPt2hgjcEg	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	472	472	0	0	F	-	-	-	-	-	-	-
+1718269066.593260	FFXOeL2nGROYVfDlF8	10.0.2.15	216.58.206.35	CVkHsu3GAs1hnPBf9g	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	83	83	0	0	F	-	-	-	-	-	-	-
+1718269066.664507	FRIoXRCDxsuzzlItk	216.58.206.35	10.0.2.15	CVkHsu3GAs1hnPBf9g	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	471	0	0	F	-	-	-	-	-	-	-
+1718269066.675628	F58kX02456ISFtfkE4	10.0.2.15	216.58.206.35	CVkHsu3GAs1hnPBf9g	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	83	83	0	0	F	-	-	-	-	-	-	-
+1718269066.718159	FWBgop4YqD6bZaKb2e	216.58.206.35	10.0.2.15	CVkHsu3GAs1hnPBf9g	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	471	0	0	F	-	-	-	-	-	-	-
+1718269066.874162	FJ6tHw2lVNoJquXKQ4	10.0.2.15	142.250.186.163	CDNKT7sIHnL1IZKJc	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	84	84	0	0	F	-	-	-	-	-	-	-
+1718269066.925214	Fa3nij4zjZ1CrYMQAb	142.250.186.163	10.0.2.15	CDNKT7sIHnL1IZKJc	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	472	472	0	0	F	-	-	-	-	-	-	-
+1718269067.426793	F2Dagp1ZEhluTD2sha	10.0.2.15	142.250.186.163	CKO8vK0sPt2hgjcEg	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	84	84	0	0	F	-	-	-	-	-	-	-
+1718269067.471760	Fb5aRf21Dxa1Qei0E1	142.250.186.163	10.0.2.15	CKO8vK0sPt2hgjcEg	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	472	472	0	0	F	-	-	-	-	-	-	-
+1718269101.273990	FEwcwq2icnSSf9xJSc	10.0.2.15	142.250.186.163	CDNKT7sIHnL1IZKJc	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	84	84	0	0	F	-	-	-	-	-	-	-
+1718269101.278657	FgDI642dMzpSWS3Ejl	10.0.2.15	142.250.186.163	CKO8vK0sPt2hgjcEg	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	84	84	0	0	F	-	-	-	-	-	-	-
+1718269101.373181	FJ6hcO1Jm5S3NS1nGl	142.250.186.163	10.0.2.15	CDNKT7sIHnL1IZKJc	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	472	472	0	0	F	-	-	-	-	-	-	-
+1718269101.373181	FFw2aNehxNejRZTX2	142.250.186.163	10.0.2.15	CKO8vK0sPt2hgjcEg	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	472	472	0	0	F	-	-	-	-	-	-	-
+1718269102.458362	FnezAD4UulxF6Ixb24	10.0.2.15	142.250.186.163	CDNKT7sIHnL1IZKJc	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	84	84	0	0	F	-	-	-	-	-	-	-
+1718269102.516803	FLvaps4Hni1Xhmo4Ie	142.250.186.163	10.0.2.15	CDNKT7sIHnL1IZKJc	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	472	472	0	0	F	-	-	-	-	-	-	-
+1718269102.649445	FlJKDILrjZdr49sb	10.0.2.15	192.229.221.95	COxbv41WdXiUGXhKak	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	83	83	0	0	F	-	-	-	-	-	-	-
+1718269102.703105	FfkNbP2H9hz02urgJ1	192.229.221.95	10.0.2.15	COxbv41WdXiUGXhKak	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	471	0	0	F	-	-	-	-	-	-	-
+1718269103.258715	FeVfIhWmfrdr052mj	10.0.2.15	104.18.38.233	C4qQg71ghAEd99IdGb	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	83	83	0	0	F	-	-	-	-	-	-	-
+1718269103.346615	FZsXli3DBmP0diBva5	104.18.38.233	10.0.2.15	C4qQg71ghAEd99IdGb	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	471	0	0	F	-	-	-	-	-	-	-
+1718269103.363038	FhSeKS3xD4C6aelgwk	10.0.2.15	104.18.38.233	C4qQg71ghAEd99IdGb	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	83	83	0	0	F	-	-	-	-	-	-	-
+1718269103.442637	FttuUF4ZVEabUqwuS1	104.18.38.233	10.0.2.15	C4qQg71ghAEd99IdGb	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	471	0	0	F	-	-	-	-	-	-	-
+1718269103.443599	Fcqyyp4AaZM1LxK0g	10.0.2.15	104.18.38.233	C4qQg71ghAEd99IdGb	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	83	83	0	0	F	-	-	-	-	-	-	-
+1718269103.537126	F70LZK2MCQj79vqz4c	104.18.38.233	10.0.2.15	C4qQg71ghAEd99IdGb	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	471	0	0	F	-	-	-	-	-	-	-
+1718269103.542296	Fh3Q3f4ZM0RMCDmybb	10.0.2.15	104.18.38.233	C4qQg71ghAEd99IdGb	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	83	83	0	0	F	-	-	-	-	-	-	-
+1718269103.609822	FZnYhLFrQyxlmjX1j	104.18.38.233	10.0.2.15	C4qQg71ghAEd99IdGb	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	471	0	0	F	-	-	-	-	-	-	-
+1718269110.758267	FMZzTC3iTPE6xtHwR	10.0.2.15	104.18.38.233	C4qQg71ghAEd99IdGb	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	84	84	0	0	F	-	-	-	-	-	-	-
+1718269110.795584	F2ZPzg3pOZJQU8Xxwa	10.0.2.15	2.16.241.15	Cxl29mAEkkHBRK0Sc	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	85	85	0	0	F	-	-	-	-	-	-	-
+1718269110.845826	F2zXAt33aNMkKvVA8	104.18.38.233	10.0.2.15	C4qQg71ghAEd99IdGb	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	472	472	0	0	F	-	-	-	-	-	-	-
+1718269110.853093	FKHYxF3X252NQdfTh	2.16.241.15	10.0.2.15	Cxl29mAEkkHBRK0Sc	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	503	503	0	0	F	-	-	-	-	-	-	-
+1718269110.910875	Fibrsm4l54utbTQZW4	10.0.2.15	2.16.241.15	Cxl29mAEkkHBRK0Sc	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	85	85	0	0	F	-	-	-	-	-	-	-
+1718269110.972824	F5VeRy3M43B3iC2b9j	2.16.241.15	10.0.2.15	Cxl29mAEkkHBRK0Sc	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	503	503	0	0	F	-	-	-	-	-	-	-
+1718269111.528741	F8Ycln4wIaLz8HTXH	10.0.2.15	142.250.186.163	CKO8vK0sPt2hgjcEg	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	83	83	0	0	F	-	-	-	-	-	-	-
+1718269111.638145	FL8bv21Onfx4mGSYH	142.250.186.163	10.0.2.15	CKO8vK0sPt2hgjcEg	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	471	0	0	F	-	-	-	-	-	-	-
+1718269112.414431	FJngvR22vuiz39kdn7	10.0.2.15	192.229.221.95	CTpAhD3ZrNdBS3nGcg	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	83	83	0	0	F	-	-	-	-	-	-	-
+1718269112.416455	Fetb4IeAdkrDJt831	10.0.2.15	192.229.221.95	Cz1J6E20irCiSt0AZ9	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	83	83	0	0	F	-	-	-	-	-	-	-
+1718269112.479895	Fz4jYn1e51aNhoTFGi	192.229.221.95	10.0.2.15	CTpAhD3ZrNdBS3nGcg	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	471	0	0	F	-	-	-	-	-	-	-
+1718269112.490942	Fd2g9937drb261u0i8	192.229.221.95	10.0.2.15	Cz1J6E20irCiSt0AZ9	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	471	0	0	F	-	-	-	-	-	-	-
+1718269112.545553	Fa1oaI1NHVZ7akhaw9	10.0.2.15	142.250.186.163	CDNKT7sIHnL1IZKJc	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	83	83	0	0	F	-	-	-	-	-	-	-
+1718269112.546465	Fcc1GpbiyprfAjdGg	10.0.2.15	142.250.186.163	CKO8vK0sPt2hgjcEg	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	83	83	0	0	F	-	-	-	-	-	-	-
+1718269112.609344	F0KXh02UhwW2ZD0Qm3	142.250.186.163	10.0.2.15	CKO8vK0sPt2hgjcEg	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	471	0	0	F	-	-	-	-	-	-	-
+1718269112.609344	FMwgt33Nj9zi4oY7	142.250.186.163	10.0.2.15	CDNKT7sIHnL1IZKJc	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	471	0	0	F	-	-	-	-	-	-	-
+1718269113.327978	FYqhJT2Z9BcJBlOoid	10.0.2.15	216.58.206.35	CVkHsu3GAs1hnPBf9g	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	84	84	0	0	F	-	-	-	-	-	-	-
+1718269113.330075	FSz9YV1PVFr8t9Dvu5	10.0.2.15	142.250.186.163	CKO8vK0sPt2hgjcEg	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	83	83	0	0	F	-	-	-	-	-	-	-
+1718269113.395786	FmlbGP3PqdGsIRSExd	216.58.206.35	10.0.2.15	CVkHsu3GAs1hnPBf9g	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	472	472	0	0	F	-	-	-	-	-	-	-
+1718269113.405674	FX9RvA26Tx0d3kosLd	142.250.186.163	10.0.2.15	CKO8vK0sPt2hgjcEg	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	471	0	0	F	-	-	-	-	-	-	-
+1718269113.999813	Fya3ej3wjTUrQVnuW6	10.0.2.15	104.18.38.233	C4qQg71ghAEd99IdGb	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	83	83	0	0	F	-	-	-	-	-	-	-
+1718269114.092270	FlN7W61e8ffJiKj6H9	104.18.38.233	10.0.2.15	C4qQg71ghAEd99IdGb	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	471	0	0	F	-	-	-	-	-	-	-
+1718269115.076119	FQrozM1pRVybjZS7Td	10.0.2.15	142.250.186.163	CDNKT7sIHnL1IZKJc	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	84	84	0	0	F	-	-	-	-	-	-	-
+1718269115.148528	F0roiUNriP8zPbZa7	142.250.186.163	10.0.2.15	CDNKT7sIHnL1IZKJc	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	472	472	0	0	F	-	-	-	-	-	-	-
+1718269118.769025	F3sMCi3qNTuPsRwVDh	20.101.38.191	10.0.2.15	CDNx0jSF9LN1LcwCf	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	503	-	0	0	F	-	-	-	-	-	-	-
+1718269119.037843	FFe78e2sIxdEoF4Ici	20.101.38.191	10.0.2.15	CidsZt2DkrtNUXnoL	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	503	-	0	0	F	-	-	-	-	-	-	-
+1718269126.104831	F3Lu331NR8cRAA61ji	10.0.2.15	34.237.184.165	CRwN2H2baUKIsJGtE6	HTTP	0	(empty)	application/ocsp-request	-	0.000000	T	T	83	83	0	0	F	-	-	-	-	-	-	-
+1718269126.261821	FcSbPgNuB14FeXKi8	34.237.184.165	10.0.2.15	CRwN2H2baUKIsJGtE6	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1810	1810	0	0	F	-	-	-	-	-	-	-
+#close	2024-06-14-15-18-19

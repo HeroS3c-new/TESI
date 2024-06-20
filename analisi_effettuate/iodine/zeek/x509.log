@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2024-06-14-15-18-19
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1718268946.407330	d571133e5a25a5c2d10a20d7a2e2830536f6b000cd3bd720418cca75698e7463	3	03F8917A7E168F9314B8AFB14976EE4917B6	CN=content-signature-2.cdn.mozilla.net	CN=R3,O=Let's Encrypt,C=US	1715139680.000000	1722915679.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	content-signature-2.cdn.mozilla.net	-	-	-	F	-	T	F
+1718268954.562865	8bcae26d81e6db7a5f6236beda5e6b5d6e1254540add61ba2e4d7f2e6bf1af0c	3	04E9417FA949AF5579C1E68AB26993ACE352	CN=remote-settings.mozilla.org	CN=R3,O=Let's Encrypt,C=US	1713565754.000000	1721341753.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	firefox.settings.services.mozilla.com,prod.remote-settings.prod.webservices.mozgcp.net,remote-settings.mozilla.org	-	-	-	F	-	T	F
+1718268955.666194	f22bcb0e029766b423f5c291ea2240a71fe9e2e2267496b3d0563ff811fffeb5	3	03019AAD308488D2F80C62DCD0E61C14FA5C	CN=*.services.mozilla.com	CN=R3,O=Let's Encrypt,C=US	1713169597.000000	1720945596.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	*.services.mozilla.com,services.mozilla.com	-	-	-	F	-	T	F
+1718269110.727097	ee0d9d6c68f603cbf126d72f9678efa1cc565c382e61c8e5275ed4dde36ccf7e	3	F2CF5570455C49F98BD084019E8D909A	CN=*.wt-safetag.com	CN=Sectigo RSA Domain Validation Secure Server CA,O=Sectigo Limited,L=Salford,ST=Greater Manchester,C=GB	1689890400.000000	1724191199.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	*.wt-safetag.com,wt-safetag.com	-	-	-	F	-	T	F
+1718269112.046527	6c68227feb10d00766463fb44a1c2248cffc1096a35652a123136ece0fc819b7	3	0B8CE9E7BE4C03D160827FCEF97A7568	CN=web.x.ilpost.it	CN=RapidSSL TLS RSA CA G1,OU=www.digicert.com,O=DigiCert Inc,C=US	1704668400.000000	1736290799.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	web.x.ilpost.it	-	-	-	F	-	T	F
+1718269113.974733	91adb9ad9abcf070d86eb0ec2c02dde171cfecc4f4f5fcc63997209ad2926191	3	5171D2024D3BD0DF3013760BBC763BAA	CN=*.mateti.net	CN=Sectigo RSA Domain Validation Secure Server CA,O=Sectigo Limited,L=Salford,ST=Greater Manchester,C=GB	1707260400.000000	1736722799.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	*.mateti.net,mateti.net	-	-	-	F	-	T	F
+1718269118.760679	cc62016c20ed01f3fad39cddce65e0fe8ceb94a2683a59c284d99635b3b21734	3	04977C815BC8AEBA310B04ECD46140910190	CN=neodatagroup.com	CN=R3,O=Let's Encrypt,C=US	1716294172.000000	1724070171.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	*.adtag.neodatagroup.com,*.exaudi.neodatagroup.com,*.neodatagroup.com,d.omg.neodatagroup.com,neodatagroup.com	-	-	-	F	-	T	F
+1718269125.054169	91b3ade56b371320cb9307150e3877f2413480c3a56e139b47d994833bfaa8cc	3	414C806F4F214B47AE65FFB1395452A9	CN=*.admantx.com	CN=SSL.com RSA SSL subCA,O=SSL Corporation,L=Houston,ST=Texas,C=US	1715866061.000000	1744810061.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	*.admantx.com,admantx.com	-	-	-	F	-	T	F
+#close	2024-06-14-15-18-19

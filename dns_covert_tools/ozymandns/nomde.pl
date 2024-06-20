@@ -9,7 +9,7 @@ use Net::DNS::Nameserver;
 use LWP::UserAgent;
 use Time::HiRes qw ( usleep gettimeofday );
 use MIME::Base64;
-use MIME::Base32 qw ( RFC );
+#use MIME::Base32 qw ( RFC );
 use IO::Socket;
 use Class::Struct;
 use threads;

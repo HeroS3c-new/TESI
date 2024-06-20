@@ -5,7 +5,7 @@ $VERSION="0.1";
 use Fcntl;
 use Net::DNS;
 use MIME::Base64;
-use MIME::Base32 qw ( RFC );
+#use MIME::Base32 qw ( RFC );
 use Time::HiRes qw (usleep gettimeofday );
 use Getopt::Long;
 use threads;

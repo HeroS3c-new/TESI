@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2024-05-25-16-34-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1716062761.644458	C747ag3jo1rdEmgO9a	127.0.0.1	34668	127.0.0.1	8080	1	POST	ocsp.sectigo.com	/	-	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0	-	83	471	200	OK	-	-	(empty)	-	-	-	FvDPVz4GI1X6M78DA	-	application/ocsp-request	Fv2Sxi4puXSZyFt9Ch	-	application/ocsp-response
+1716062821.692868	C747ag3jo1rdEmgO9a	127.0.0.1	34668	127.0.0.1	8080	2	POST	ocsp.sectigo.com	/	-	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0	-	83	471	200	OK	-	-	(empty)	-	-	-	Fu0vzc3r5Aw0SMDI3g	-	application/ocsp-request	FZkJnY2WIpV3xCK8cl	-	application/ocsp-response
+1716062822.235179	ClX0qG2MHkOgTO33j4	127.0.0.1	49886	127.0.0.1	8080	1	POST	r3.o.lencr.org	/	-	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0	-	85	503	200	OK	-	-	(empty)	-	-	-	FtBe3H1khH8HmSisQc	-	application/ocsp-request	FUB3zq2YjhN6Z3nGn1	-	application/ocsp-response
+1716062822.210172	C0KmPH2zimgPmCjssd	127.0.0.1	49890	127.0.0.1	8080	1	POST	r3.o.lencr.org	/	-	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0	-	85	503	200	OK	-	-	(empty)	-	-	-	FFUmlE1JyCceffDHPa	-	application/ocsp-request	FrNLd82KlZKn7FJSgl	-	application/ocsp-response
+1716062823.182526	CzHGRz4rAlycshfkMi	127.0.0.1	49910	127.0.0.1	8080	1	GET	detectportal.firefox.com	/success.txt?ipv4	-	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0	-	0	8	200	OK	-	-	(empty)	-	-	-	-	-	-	F3ch2sTriKWFrQ6nj	-	-
+1716062880.325668	CFxeq4wSnu2u2vHU	127.0.0.1	56518	127.0.0.1	8080	1	POST	r3.o.lencr.org	/	-	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0	-	85	503	200	OK	-	-	(empty)	-	-	-	F1CdgM2KipIu4rzeI4	-	application/ocsp-request	F4WXotRvAyCZ5XK4	-	application/ocsp-response
+1716062880.654480	CTQQ3F48zsFgB7P1X7	127.0.0.1	41512	127.0.0.1	8080	1	POST	r3.o.lencr.org	/	-	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0	-	85	503	200	OK	-	-	(empty)	-	-	-	FHAEaQ1Q3orZYKDjG1	-	application/ocsp-request	FKAoPh1nduxRwdIbEk	-	application/ocsp-response
+1716062887.205389	CTQQ3F48zsFgB7P1X7	127.0.0.1	41512	127.0.0.1	8080	2	POST	r3.o.lencr.org	/	-	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0	-	85	503	200	OK	-	-	(empty)	-	-	-	F8j2LE33QHJneK0JSa	-	application/ocsp-request	Ff2Qjh2BKLjw70BqX6	-	application/ocsp-response
+1716062887.096803	CFxeq4wSnu2u2vHU	127.0.0.1	56518	127.0.0.1	8080	2	POST	r3.o.lencr.org	/	-	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0	-	85	503	200	OK	-	-	(empty)	-	-	-	FcflWe18tcPRWLom7b	-	application/ocsp-request	FGMFn11zX58NnMtCgf	-	application/ocsp-response
+1716062919.356496	C747ag3jo1rdEmgO9a	127.0.0.1	34668	127.0.0.1	8080	3	POST	ocsp.sectigo.com	/	-	1.1	Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0	-	84	472	200	OK	-	-	(empty)	-	-	-	Fy5skk2FOzTbY6uNXf	-	application/ocsp-request	FobZUFUDWkBnwr5Ih	-	application/ocsp-response
+1716062936.059383	C747ag3jo1rdEmgO9a	127.0.0.1	34668	127.0.0.1	8080	4	POST	ocsp.sectigo.com	/	-	-	Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0	-	84	0	-	-	-	-	(empty)	-	-	-	F1MdZ7Zt7tAbpWQc1	-	application/ocsp-request	-	-	-
+#close	2024-05-25-16-34-23

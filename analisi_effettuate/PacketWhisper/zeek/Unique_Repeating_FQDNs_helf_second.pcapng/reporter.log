@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	reporter
+#open	2024-06-14-15-12-07
+#fields	ts	level	message	location
+#types	time	enum	string	string
+1718370727.401576	Reporter::WARNING	Node names are not added to logs (not in cluster mode)!	/usr/local/zeek/share/zeek/site/packages/./add-node-names/./add-node-names.zeek, line 43
+#close	2024-06-14-15-12-07
